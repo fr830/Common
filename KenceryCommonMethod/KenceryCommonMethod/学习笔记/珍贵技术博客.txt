@@ -19,4 +19,8 @@
 	郭明峰OSharp博客：http://www.cnblogs.com/guomingfeng/p/osharp-overall-design.html
 	ASP.Net请求处理机制初步探索之旅：http://www.cnblogs.com/edisonchou/p/4192017.html
 
+
+
+A.视频内容
+	1.一个理想主义者的创业故事Ⅳ  http://me.cztv.com/video-2049334.html
 	 
