@@ -28,7 +28,7 @@ namespace KenceryCommonMethod
         /// 将对象(主要是匿名对象)转换为View层可以访问的对象(dynamic)
         /// 使用：MVC控制器中构造：
         ///     var data=new{Id=1,Name="Kencery"};
-        ///     dynamic result=data.ToDynamic();
+        ///     dynamic result=data.ToDynamicInfo();
         ///     Viewbag.Result=result;
         ///       View端如何解析调用
         ///     dynamic result=Viewbag.Result;
