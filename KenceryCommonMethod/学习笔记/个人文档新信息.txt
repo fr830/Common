@@ -1,17 +1,45 @@
-1.爸爸妈妈，我下辈子还做你们的儿子，我永远爱你，弟弟妹妹们
-2.简历投递：
-	(1):博客园
-	(2):智联招聘
-	(3):拉勾网
-	(4):51Job
-	(5):猎聘网
 NotePad++为每一行最后添加符号，按住Ctrl+Alt选择，然后输入需要显示的符号即可
 
-好看的博客：
+*好看的博客：
 	１.http://www.cnblogs.com/xishuai/p/3632304.html
 	２.http://www.cnblogs.com/qouoww/archive/2011/12/31/2309066.html
 	３.http://www.cnblogs.com/capqueen/p/HowToUseRedis.html
 	4. http://blog.csdn.net/tonysz126/article/details/8280696    Memcached和redis的区别
 
-
 重典MVC和EF学习http://www.cnblogs.com/chsword/archive/2010/12/27/searchmodel_1.html
+
+
+1.此项目为我总结的所有共用项目，公共的操作类，提供使用
+	1.项目SVN地点：http://code.taobao.org/svn/kencerycommonmethod/  用户名和密码通用
+	2.博客学习地址：http://www.cnblogs.com/yunfeifei/p/4055439.html
+
+
+1.Memcached和redis的使用：
+	(1).http://blog.csdn.net/tonysz126/article/details/8280696/    Memcached和redis的区别
+	(2).http://kb.cnblogs.com/page/42731/    
+	(3).http://www.cnblogs.com/qingyuan/archive/2011/01/17/1937855.html
+2.引用程序框架实践：
+	(1):http://www.cnblogs.com/xiadao521/p/4059571.html
+2.bootStrap3.0前段框架学习笔记：
+	(1):http://aehyok.com/Blog/Detail/5.html
+
+4.明天需要看的博客
+	http://www.cnblogs.com/hambert/p/4159388.html
+	http://www.cnblogs.com/jiagoushi/p/4158753.html
+	http://www.cnblogs.com/sunniest/p/4158494.html
+	http://www.cnblogs.com/irenebbkiss/p/4157364.htmll
+	http://www.cnblogs.com/xishuai/p/asp-net-5-and-ef7.html
+
+5.经典博客：
+	田园里的蟋蟀：http://www.cnblogs.com/xishuai/
+	郭明峰OSharp博客：http://www.cnblogs.com/guomingfeng/p/osharp-overall-design.html
+	ASP.Net请求处理机制初步探索之旅：http://www.cnblogs.com/edisonchou/p/4192017.html
+
+
+
+版权声明：本项目中的所有公用方法来自个人总结和互联网资料，如果和您的版权冲突，请联系我处理，
+	如大家使用本项目中的任何公用方法，希望留下创始人备注信息，谢谢大家
+
+	1.NodeJS开元地址：
+	(1):https://github.com/joyent/node
+	(2):https://github.com/youyudehexie/node123
