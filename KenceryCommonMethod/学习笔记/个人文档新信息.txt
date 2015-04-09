@@ -15,7 +15,7 @@
 	(1).http://aehyok.com/Blog/Detail/5.html									  入门学习系列             *aehyok
 	(2).http://www.w3cschool.cc/bootstrap/bootstrap-tutorial.html                 w3c教程
 
-个人经典学习
+个人博客经典学习
 	1.田园里的蟋蟀：http://www.cnblogs.com/xishuai/
 	2.郭明峰OSharp博客：http://www.cnblogs.com/guomingfeng/p/osharp-overall-design.html
 	3.ASP.Net请求处理机制初步探索之旅：http://www.cnblogs.com/edisonchou/p/4192017.html
