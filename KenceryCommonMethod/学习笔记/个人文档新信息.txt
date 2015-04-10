@@ -14,6 +14,8 @@
 4.BoorStrap前端框架
 	(1).http://aehyok.com/Blog/Detail/5.html									  入门学习系列             *aehyok
 	(2).http://www.w3cschool.cc/bootstrap/bootstrap-tutorial.html                 w3c教程
+5.Html学习系列
+	(1).http://www.cnblogs.com/cotton/p/4379224.html                              Html5学习系列            *棉花年度
 
 个人博客经典学习
 	1.田园里的蟋蟀：http://www.cnblogs.com/xishuai/
