@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>21ed78e7-33b7-40b9-8557-7cc05dee1192</ProjectGuid>
+    <ProjectGuid>{B5A3495D-3FE1-4F27-933A-14F32190ED66}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BsOrH5</RootNamespace>
@@ -46,6 +46,31 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="BootStrap\BootJC\Content\bootstrap-theme.css.map" />
+    <None Include="BootStrap\BootJC\Content\bootstrap.css.map" />
+    <None Include="BootStrap\BootJC\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="BootStrap\BootJC\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="BootStrap\BootJC\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="BootStrap\BootJC\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="BootStrap\BootJC\packages.config" />
+    <None Include="BootStrap\BootJC\Scripts\jquery-1.9.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BootStrap\aehyok\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BootStrap\BootJC\Content\bootstrap-theme.css" />
+    <Content Include="BootStrap\BootJC\Content\bootstrap-theme.min.css" />
+    <Content Include="BootStrap\BootJC\Content\bootstrap.css" />
+    <Content Include="BootStrap\BootJC\Content\bootstrap.min.css" />
+    <Content Include="BootStrap\BootJC\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="BootStrap\BootJC\Icon.png" />
+    <Content Include="BootStrap\BootJC\Scripts\bootstrap.js" />
+    <Content Include="BootStrap\BootJC\Scripts\bootstrap.min.js" />
+    <Content Include="BootStrap\BootJC\Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="BootStrap\BootJC\Scripts\jquery-1.9.1.js" />
+    <Content Include="BootStrap\BootJC\Scripts\jquery-1.9.1.min.js" />
+    <Content Include="BootStrap\BootJC\Scripts\npm.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
