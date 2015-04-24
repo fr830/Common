@@ -55,10 +55,14 @@
     <None Include="BootStrap\BootJC\packages.config" />
     <None Include="BootStrap\BootJC\Scripts\jquery-1.9.1.min.map" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="BootStrap\aehyok\" />
-  </ItemGroup>
-  <ItemGroup>
+    <Content Include="BootStrap\aehyok\BootStrap.html" />
+    <Content Include="BootStrap\aehyok\BootStrap3.10.html" />
+    <Content Include="BootStrap\aehyok\BootStrap3.4.html" />
+    <Content Include="BootStrap\aehyok\BootStrap3.7-8-9.html" />
+    <Content Include="BootStrap\aehyok\layout.html" />
+    <Content Include="BootStrap\aehyok\BootStrap3.5-6.html" />
     <Content Include="BootStrap\BootJC\Content\bootstrap-theme.css" />
     <Content Include="BootStrap\BootJC\Content\bootstrap-theme.min.css" />
     <Content Include="BootStrap\BootJC\Content\bootstrap.css" />
