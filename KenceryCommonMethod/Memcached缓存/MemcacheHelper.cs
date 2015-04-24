@@ -73,7 +73,7 @@ namespace KenceryCommonMethod
 
         /// <summary>
         /// 添加缓存信息(如果存在缓存信息则直接重写设置，否则添加)
-        /// 使用：
+        /// 使用：MemcacheHelper.GetInstance().Add(key,value)
         /// </summary>
         /// <param name="key">需要缓存的键</param>
         /// <param name="value">需要缓存的值</param>
@@ -88,7 +88,7 @@ namespace KenceryCommonMethod
 
         /// <summary>
         /// 添加缓存信息
-        /// 使用：
+        /// 使用：MemcacheHelper.GetInstance().Add(key,value,Datetime.Now())
         /// </summary>
         /// <param name="key">需要缓存的键</param>
         /// <param name="value">需要缓存的值</param>
@@ -100,7 +100,7 @@ namespace KenceryCommonMethod
 
         /// <summary>
         /// 修改缓存的值
-        /// 使用：
+        /// 使用：MemcacheHelper.GetInstance().Update(key,value)
         /// </summary>
         /// <param name="key">需要修改的键</param>
         /// <param name="value">需要修改的值</param>
@@ -111,7 +111,7 @@ namespace KenceryCommonMethod
 
         /// <summary>
         /// 修改缓存的值
-        /// 使用：
+        /// 使用：MemcacheHelper.GetInstance().Update(key,value,Datetime.Now())
         /// </summary>
         /// <param name="key">需要修改的键</param>
         /// <param name="value">需要修改的值</param>
@@ -123,7 +123,7 @@ namespace KenceryCommonMethod
 
         /// <summary>
         /// 设置缓存
-        /// 使用：
+        /// 使用：MemcacheHelper.GetInstance().Set(key,value)
         /// </summary>
         /// <param name="key">设置缓存的键</param>
         /// <param name="value">设置缓存的值</param>
@@ -134,7 +134,7 @@ namespace KenceryCommonMethod
 
         /// <summary>
         /// 设置缓存，并修改过期时间
-        /// 使用：
+        /// 使用：MemcacheHelper.GetInstance().Set(key,value,Datetime.Now())
         /// </summary>
         /// <param name="key">设置缓存的键</param>
         /// <param name="value">设置缓存的值</param>
@@ -146,7 +146,7 @@ namespace KenceryCommonMethod
 
         /// <summary>
         /// 删除缓存
-        /// 使用：
+        /// 使用：MemcacheHelper.GetInstance().Delete(key)
         /// </summary>
         /// <param name="key">需要删除的缓存的键</param>
         public void Delete(string key)
@@ -156,7 +156,7 @@ namespace KenceryCommonMethod
 
         /// <summary>
         /// 获取缓存的值
-        /// 使用：
+        /// 使用：MemcacheHelper.GetInstance().Get(key)
         /// </summary>
         /// <param name="key">传递缓存中的键</param>
         /// <returns>返回缓存在缓存中的信息</returns>
@@ -167,7 +167,7 @@ namespace KenceryCommonMethod
 
         /// <summary>
         /// 缓存是否存在
-        /// 使用：
+        /// 使用：MemcacheHelper.GetInstance().KeyExists(key)
         /// </summary>
         /// <param name="key">传递缓存中的键</param>
         /// <returns>如果为true，则表示存在此缓存，否则比表示不存在</returns>
