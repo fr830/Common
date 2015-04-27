@@ -5,7 +5,6 @@
 // 创建人：韩迎龙(kencery)
 // 创建时间：2015/04/24
 // </copyright>
-
 using System;
 using System.Configuration;
 using Memcached.ClientLibrary;
