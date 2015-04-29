@@ -18,6 +18,8 @@
 	(4).bootstrap视频教程下载地址（官网上的）：http://pan.baidu.com/s/1i3J3JzZ 密码：6tgw
 5.Html学习系列
 	(1).http://www.cnblogs.com/cotton/p/4379224.html                              Html5学习系列            *棉花年度
+6.架构整理
+	(1).http://www.cnblogs.com/HJL-Blog/p/4459245.html                            博客信息整理             *H:JL
 
 个人博客经典学习
 	1.田园里的蟋蟀：http://www.cnblogs.com/xishuai/

@@ -60,6 +60,8 @@
     <Content Include="BootStrap\aehyok\BootStrap.html" />
     <Content Include="BootStrap\aehyok\BootStrap3.10.html" />
     <Content Include="BootStrap\aehyok\BootStrap3.11.html" />
+    <Content Include="BootStrap\aehyok\BootStrap3.12.html" />
+    <Content Include="BootStrap\aehyok\BootStrap3.14.html" />
     <Content Include="BootStrap\aehyok\BootStrap3.4.html" />
     <Content Include="BootStrap\aehyok\BootStrap3.7-8-9.html" />
     <Content Include="BootStrap\aehyok\layout.html" />
@@ -76,6 +78,7 @@
     <Content Include="BootStrap\BootJC\Scripts\jquery-1.9.1.js" />
     <Content Include="BootStrap\BootJC\Scripts\jquery-1.9.1.min.js" />
     <Content Include="BootStrap\BootJC\Scripts\npm.js" />
+    <Content Include="BootStrap\aehyok\BootStrap3.13.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
