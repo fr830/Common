@@ -6,7 +6,10 @@
 // 创建时间：2015/04/29 11:17
 // </copyright>
 
+using System.Collections.Generic;
 using System.Linq;
+using System.Management;
+using System.Net;
 using System.Web;
 
 namespace KenceryCommonMethod
@@ -55,6 +58,49 @@ namespace KenceryCommonMethod
                 }
             }
             return isError ? "1.1.1.1" : ip;
+        }
+
+        /// <summary>
+        /// 获取电脑的IP信息(集合)
+        /// 使用：var computerIpList=GetComputerHelper.GetComputerIpList();
+        /// </summary>
+        /// <returns>返回获取到的电脑的IP信息</returns>
+        public static List<string> GetComputerIpList()
+        {
+            IPAddress[] ipAddresses = Dns.GetHostEntry(GetHostName()).AddressList;
+            return ipAddresses.Select(ipAddress => ipAddress.ToString()).ToList();
+        }
+
+        #endregion
+
+        #region-------------------Web程序获取电脑主机名称-------------------
+
+        /// <summary>
+        /// 获取电脑的主机名称
+        /// 使用：var computerHostName=GetComputerHelper.GetHostName();
+        /// </summary>
+        /// <returns>返回获取电脑的主机名称</returns>
+        public static string GetHostName()
+        {
+            return Dns.GetHostName();
+        }
+
+        #endregion
+
+        #region--------------------Web程序获取电脑Mac地址-------------------
+
+        /// <summary>
+        /// 获取电脑的Mac地址
+        /// 使用：var computerMac=GetComputerHelper.GetMacList();
+        /// </summary>
+        /// <returns>返回获取电脑的Mac地址</returns>
+        public static List<string> GetMacList()
+        {
+            var mc = new ManagementClass("Win32_NetworkAdapterConfiguration");
+            ManagementObjectCollection mocs = mc.GetInstances();
+            return (from ManagementBaseObject moc in mocs
+                where moc["IPEnabled"].ToString() == "True"
+                select moc["MacAddress"].ToString()).ToList();
         }
 
         #endregion
