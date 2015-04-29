@@ -137,8 +137,12 @@ namespace KenceryCommonMethod
             return value.IsMatch(pattern);
         }
 
-        #endregion
+        public static bool IsString(this string value)
+        {
+            return value.IsMatch("^[1-9]*[0-9]*$");
+        }
 
+        #endregion
 
     }
 }

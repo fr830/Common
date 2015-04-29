@@ -84,6 +84,7 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
@@ -105,6 +106,7 @@
     <Compile Include="操作Excel\ExcelOneHelper.cs" />
     <Compile Include="枚举_下拉框%28Enum%29\DropDownListHelper.cs" />
     <Compile Include="枚举_下拉框%28Enum%29\EnumHelper.cs" />
+    <Compile Include="获取电脑信息\GetComputerHelper.cs" />
     <Compile Include="读取WebConfig\WebConfigHelper.cs" />
     <Compile Include="通用各种加密解密\EncryptHelper.cs" />
     <Compile Include="通用各种加密解密\FileEncryptHelper.cs" />
