@@ -8,6 +8,7 @@
 
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Text.RegularExpressions;
 
 namespace KenceryCommonMethod
@@ -123,6 +124,31 @@ namespace KenceryCommonMethod
         {
             const string pattern = @"^(^\d{15}$|^\d{18}$|^\d{17}(\d|X|x))$";
             return value.IsMatch(pattern);
+        }
+
+        /// <summary>
+        /// 使用正则表达式验证是否是身份证，包含以下三种情况：
+        ///     (1):身份证号码为15位数字
+        ///     (2):身份证号码为18位数字
+        ///     (3):身份证号码为17位数字+1个字母
+        /// </summary>
+        /// <param name="value">传递需要验证的字符串信息</param>
+        /// <param name="isInfo">重构，true，false暂时没有用到，不使用</param>
+        /// <returns>返回验证是否通过的标志</returns>
+        public static bool IsIdentityCard(this string value, bool isInfo)
+        {
+            if (string.IsNullOrEmpty(value))
+            {
+                return false;
+            }
+
+            //模式字符串
+            var pattern = new StringBuilder();
+            pattern.Append(@"^(11|12|13|14|15|21|22|23|31|32|33|34|35|36|37|41|42|43|44|45|46|");
+            pattern.Append(@"50|51|52|53|54|61|62|63|64|65|71|81|82|91)");
+            pattern.Append(@"(\d{13}|\d{15}[\dx])$");
+            //验证身份证信息是否正确
+            return Regex.IsMatch(value.Trim(), pattern.ToString());
         }
 
         /// <summary>
