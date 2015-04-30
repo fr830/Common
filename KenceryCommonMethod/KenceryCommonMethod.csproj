@@ -104,6 +104,7 @@
     <Compile Include="对象转化器\ObjectConvertHelper.cs" />
     <Compile Include="操作Excel\ExcelBaseHelper.cs" />
     <Compile Include="操作Excel\ExcelOneHelper.cs" />
+    <Compile Include="文件操作File\FileBaseHelper.cs" />
     <Compile Include="枚举_下拉框%28Enum%29\DropDownListHelper.cs" />
     <Compile Include="枚举_下拉框%28Enum%29\EnumHelper.cs" />
     <Compile Include="获取电脑信息\GetComputerHelper.cs" />
