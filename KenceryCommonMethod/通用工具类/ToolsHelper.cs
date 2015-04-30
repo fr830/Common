@@ -227,5 +227,40 @@ namespace KenceryCommonMethod
                 return -1;
             }
         }
+
+        /// <summary>
+        /// 格式化日期时间，格式化成自己想要的各种格式
+        /// </summary>
+        /// <param name="dateTime">需要格式话的日期</param>
+        /// <param name="dateMode">现实的模式(0-9中格式实现)</param>
+        /// <returns>返回转换后的时间信息</returns>
+        public static string FormatDate(DateTime dateTime, string dateMode = "0")
+        {
+            switch (dateMode)
+            {
+                case "0":
+                    return dateTime.ToString("yyyy-MM-dd");
+                case "1":
+                    return dateTime.ToString("yyyy-MM-dd HH:mm:ss");
+                case "2":
+                    return dateTime.ToString("yyyy/MM/dd");
+                case "3":
+                    return dateTime.ToString("yyyy年MM月dd日");
+                case "4":
+                    return dateTime.ToString("MM-dd");
+                case "5":
+                    return dateTime.ToString("MM/dd");
+                case "6":
+                    return dateTime.ToString("MM月dd日");
+                case "7":
+                    return dateTime.ToString("yyyy-MM");
+                case "8":
+                    return dateTime.ToString("yyyy/MM");
+                case "9":
+                    return dateTime.ToString("yyyy年MM月");
+                default:
+                    return dateTime.ToString(CultureInfo.InvariantCulture);
+            }
+        }
     }
 }
