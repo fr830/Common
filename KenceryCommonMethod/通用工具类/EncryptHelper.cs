@@ -21,8 +21,6 @@ namespace KenceryCommonMethod
     ///     <name>Kencery</name>
     ///     <date>2015/1/12</date>
     /// </auther>
-    /// 修改记录：
-    ///     1.
     /// </summary>
     public class EncryptHelper
     {
