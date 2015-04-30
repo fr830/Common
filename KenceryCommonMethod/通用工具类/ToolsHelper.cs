@@ -32,6 +32,7 @@ namespace KenceryCommonMethod
     ///     7.DelStrSubSting，DelStrSubSting   对字符串进行删除操作
     ///     8.StrByteLength     得到字符串的字节数
     ///     9.HtmlToText     将HTML文件转换成文本文件
+    ///     10.DateDiff    根据输入的开始时间和结束时间计算返回最后的日期差
     /// </summary>
     public static class ToolsHelper
     {
@@ -201,6 +202,30 @@ namespace KenceryCommonMethod
                 .Aggregate(strHtml, (current, regex) => regex.Replace(current, string.Empty));
             strOutPut.Replace("<", "").Replace(">", "").Replace("\r\n", "");
             return strOutPut;
+        }
+
+        /// <summary>
+        /// 根据输入的开始时间和结束时间计算返回最后的日期差
+        /// </summary>
+        /// <param name="startTime">开始时间</param>
+        /// <param name="endTime">结束时间</param>
+        /// <returns>返回最终的日期差，负数为失败，将错误原因写入事务日志</returns>
+        public static int DateDiff(DateTime startTime, DateTime endTime)
+        {
+            try
+            {
+                double dateDiff = 0;
+                while (startTime.AddDays(dateDiff) < endTime)
+                {
+                    dateDiff++;
+                }
+                return Convert.ToInt32(dateDiff);
+            }
+            catch (Exception ex)
+            {
+                //写入事务日志 ex
+                return -1;
+            }
         }
     }
 }
