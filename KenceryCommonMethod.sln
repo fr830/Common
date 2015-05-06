@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KenceryCommonMethod", "KenceryCommonMethod\KenceryCommonMethod.csproj", "{17D6F665-AF6C-4E7E-8997-7B21BD5FEDCC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BsOrH5", "BsOrH5\BsOrH5.csproj", "{B5A3495D-3FE1-4F27-933A-14F32190ED66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestInfo", "TestInfo\TestInfo.csproj", "{2F48DA7B-B233-4FB6-B68A-B44F087D717F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,14 @@ Global
 		{17D6F665-AF6C-4E7E-8997-7B21BD5FEDCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17D6F665-AF6C-4E7E-8997-7B21BD5FEDCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17D6F665-AF6C-4E7E-8997-7B21BD5FEDCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5A3495D-3FE1-4F27-933A-14F32190ED66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5A3495D-3FE1-4F27-933A-14F32190ED66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5A3495D-3FE1-4F27-933A-14F32190ED66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5A3495D-3FE1-4F27-933A-14F32190ED66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F48DA7B-B233-4FB6-B68A-B44F087D717F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F48DA7B-B233-4FB6-B68A-B44F087D717F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F48DA7B-B233-4FB6-B68A-B44F087D717F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F48DA7B-B233-4FB6-B68A-B44F087D717F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
