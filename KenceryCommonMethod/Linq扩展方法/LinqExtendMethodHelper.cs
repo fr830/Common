@@ -7,6 +7,7 @@
 // </copyright>
 
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
@@ -15,14 +16,15 @@ using Aspose.Words.Properties;
 namespace KenceryCommonMethod
 {
     /// <summary>
-    ///  Linq OrderBy封装的传递查询，由于本质Linq To EF支持OrderBy，所以只要模拟个keySelector后，
+    ///  1.Linq OrderBy封装的传递查询，由于本质Linq To EF支持OrderBy，所以只要模拟个keySelector后，
     ///     将剩余的工作交还给Linq To EF Provider来处理
+    ///  2.扩展Linq Join方法(组装字符串的操作)
     /// <auther>
     ///     <name>Kencery</name>
     ///     <date>2014/12/18</date>
     /// </auther>
     /// 修改记录：时间  内容  姓名
-    ///     1.  
+    ///     1.  20150506 添加linq Join扩展方法  kencery,xiaoji提供
     /// </summary>
     public static class LinqExtendMethodHelper
     {
@@ -33,7 +35,6 @@ namespace KenceryCommonMethod
         /// <param name="source">结果集信息</param>
         /// <param name="propertyStr">动态排序的属性名(从前台获取)</param>
         /// <param name="isDesc">排序方式，不传递表示顺序，默认true，false表示倒序</param>
-        /// <returns></returns>
         public static IOrderedQueryable<TEntity> OrderBy<TEntity>(this IQueryable<TEntity> source, string propertyStr,
             bool isDesc = true) where TEntity : class
         {
@@ -57,5 +58,23 @@ namespace KenceryCommonMethod
             return (IOrderedQueryable<TEntity>) source.Provider.CreateQuery<TEntity>(methodCallExpression);
 
         }
+
+        /// <summary>
+        /// 扩展linq的Join方法，使其传递的集合或者数组调用Join方法可以转换成按照规定格式转换的字符串
+        /// 使用：string[] strJoin={"kencery","liuxiaoji"};
+        ///       strJoin.Join("需要分隔的格式，不传递默认按照，分隔")
+        /// </summary>
+        /// <param name="source">需要转换成字符串格式的集合信息</param>
+        /// <param name="separator">以某种格式分隔集合的信息，不传递默认则是,</param>
+        public static string Join(this IEnumerable<string> source, string separator = ",")
+        {
+            if (source == null)
+            {
+                throw new Exception("source is null,but source is not null");
+            }
+            return source.Aggregate((x, y) => x + separator + y);
+        }
+
+
     }
 }
