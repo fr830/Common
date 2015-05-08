@@ -1,21 +1,21 @@
 博客整理学习
 1.ASP.NET MVC和Entity FrameWork 学习笔记：
-	(1).http://www.cnblogs.com/xishuai/p/3632304.html                             EF  CodeFirst            *田园里的蟋蟀
-	(2).http://www.cnblogs.com/qouoww/archive/2011/12/31/2309066.html             EF  CodeFirst            *qouoww
-	(3).http://www.cnblogs.com/panchunting/category/540375.html                   EF  CodeFirst            *panchunting
-	(4).http://www.cnblogs.com/chsword/archive/2010/12/27/searchmodel_1.html      MVC&EF架构			   *重典的博客
-	(5).http://www.cnblogs.com/haogj/archive/2011/05/06/2038965.html              EF 4.1                   *郝冠军翻译的系列博客
+	(1).http://www.cnblogs.com/xishuai/p/3632304.html                 EF  CodeFirst            *田园里的蟋蟀
+	(2).http://www.cnblogs.com/qouoww/archive/2011/12/31/2309066.html  EF  CodeFirst            *qouoww
+	(3).http://www.cnblogs.com/panchunting/category/540375.html    EF  CodeFirst            *panchunting
+	(4).http://www.cnblogs.com/chsword/archive/2010/12/27/searchmodel_1.html  MVC&EF架构			   *重典的博客
+	(5).http://www.cnblogs.com/haogj/archive/2011/05/06/2038965.html   EF 4.1                   *郝冠军翻译的系列博客
 2.Memcached和redis的使用：
-	(1).http://blog.csdn.net/tonysz126/article/details/8280696/				      Memcached和redis的区别   *凝聚平凡，创造非凡       (看完)
-	(2).http://kb.cnblogs.com/page/42731/										  Memcached完全剖析系列
-	(3).http://www.cnblogs.com/qingyuan/archive/2011/01/17/1937855.html           Memcached分布式缓存简介  *情缘
-	(4).http://www.cnblogs.com/capqueen/p/HowToUseRedis.html					  Redis到底该如何利用？	   *CapQueen
+	(1).http://blog.csdn.net/tonysz126/article/details/8280696/		 Memcached和redis的区别   *凝聚平凡，创造非凡       (看完)
+	(2).http://kb.cnblogs.com/page/42731/		Memcached完全剖析系列
+	(3).http://www.cnblogs.com/qingyuan/archive/2011/01/17/1937855.html  Memcached分布式缓存简介  *情缘
+	(4).http://www.cnblogs.com/capqueen/p/HowToUseRedis.html   Redis到底该如何利用？	   *CapQueen
 3.架构和框架
-	(1).http://www.cnblogs.com/xiadao521/p/4059571.html							  引用程序框架实践         *何镇汐的技术博客
+	(1).http://www.cnblogs.com/xiadao521/p/4059571.html	  引用程序框架实践         *何镇汐的技术博客
 4.BoorStrap前端框架
-	(1).http://aehyok.com/Blog/Detail/5.html									  入门学习系列             *aehyok
-	(2).http://www.cnblogs.com/lansy/p/4331875.html                               系列学习                 *lansy
-	(3).http://www.w3cschool.cc/bootstrap/bootstrap-tutorial.html                 w3c教程
+	(1).http://aehyok.com/Blog/Detail/5.html	  入门学习系列             *aehyok          23
+	(2).http://www.cnblogs.com/lansy/p/4331875.html    系列学习                 *lansy      基础7 按钮
+	(3).http://www.w3cschool.cc/bootstrap/bootstrap-tutorial.html  w3c教程
 	(4).bootstrap视频教程下载地址（官网上的）：http://pan.baidu.com/s/1i3J3JzZ 密码：6tgw
 5.Html学习系列
 	(1).http://www.cnblogs.com/cotton/p/4379224.html                              Html5学习系列            *棉花年度
