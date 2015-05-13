@@ -15,7 +15,7 @@
 	(1).http://www.cnblogs.com/xiadao521/p/4059571.html	  引用程序框架实践         *何镇汐的技术博客     http://www.cnblogs.com/xiadao521/p/4077448.html
 4.BoorStrap前端框架
 	(1).http://aehyok.com/Blog/Detail/5.html	  入门学习系列             *aehyok      (看完*)
-	(2).http://www.cnblogs.com/lansy/p/4334611.html    系列学习                 *lansy      14 
+	(2).http://www.cnblogs.com/lansy/p/4334611.html    系列学习                 *lansy      22
 	(3).http://www.w3cschool.cc/bootstrap/bootstrap-tutorial.html  w3c教程
 	(4).bootstrap视频教程下载地址（官网上的）：http://pan.baidu.com/s/1i3J3JzZ 密码：6tgw    (看完*)
 5.Html学习系列
