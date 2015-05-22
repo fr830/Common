@@ -24,12 +24,14 @@
 7.ASP.NET MVC
 	(1).http://www.cnblogs.com/chsword/archive/2010/12/27/searchmodel_1.html  MVC&EF架构			   *重典的博客
 	(2).http://www.cnblogs.com/TomXu/p/4495251.html   解读ASP.NET 5 & MVC6系列（1）：ASP.NET 5简介   *汤姆大叔
-	(3).http://www.cnblogs.com/miro/p/4030622.html   MVC5 + EF6 入门完整教程                      *五色令人目盲
-
+	(3).http://www.cnblogs.com/miro/p/3777960.html   MVC5 + EF6 入门完整教程                      *五色令人目盲     10
+	(4).http://www.cnblogs.com/TomXu/p/3756794.html  MVC那点事儿                     *汤姆大叔
+	(5).http://www.cnblogs.com/TomXu/p/4496545.html  解读ASP.NET 5 & MVC6系列        *汤姆大叔
 个人博客经典学习
 	1.田园里的蟋蟀：http://www.cnblogs.com/xishuai/
 	2.郭明峰OSharp博客：http://www.cnblogs.com/guomingfeng/p/osharp-overall-design.html
 	3.ASP.Net请求处理机制初步探索之旅：http://www.cnblogs.com/edisonchou/p/4192017.html
+
 开源项目学习
 	1.NodeJS开元地址：
 		(1):https://github.com/joyent/node
