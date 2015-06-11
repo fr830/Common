@@ -109,10 +109,11 @@
     <Compile Include="枚举_下拉框%28Enum%29\EnumHelper.cs" />
     <Compile Include="获取电脑信息\GetComputerHelper.cs" />
     <Compile Include="读取WebConfig\WebConfigHelper.cs" />
-    <Compile Include="通用工具类\EncryptHelper.cs" />
+    <Compile Include="通用类\EncryptHelper.cs" />
     <Compile Include="文件操作File\FileEncryptHelper.cs" />
-    <Compile Include="通用工具类\StringExtensionHelper.cs" />
-    <Compile Include="通用工具类\ToolsHelper.cs" />
+    <Compile Include="通用类\StatusCode.cs" />
+    <Compile Include="通用类\StringExtensionHelper.cs" />
+    <Compile Include="通用类\ToolsHelper.cs" />
     <Compile Include="验证码%28Drawing%29\ValidateCodeHelper.cs" />
   </ItemGroup>
   <ItemGroup>
