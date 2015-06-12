@@ -50,7 +50,6 @@ namespace KenceryCommonMethod
         /// 请求参数错误
         /// </summary>
         InvalidRequest = 1002
-
     }
 
     /// <summary>
@@ -201,6 +200,5 @@ namespace KenceryCommonMethod
         /// 微信服务返回结果无效
         /// </summary>
         WechatServiceError = 10003
-
     }
 }
