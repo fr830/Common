@@ -136,6 +136,10 @@
     <Content Include="操作Excel\lib\NPOI.dll" />
     <Content Include="操作Excel\lib\NPOI.OOXML.dll" />
     <Content Include="操作Excel\lib\NPOI.OpenXml4Net.dll" />
+    <Content Include="文件上传\css\fileUpload.css" />
+    <Content Include="文件上传\html\FileUpload.html" />
+    <Content Include="文件上传\js\FileUpload.js" />
+    <Content Include="文件上传\js\jquery-1.7.1-min.js" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
