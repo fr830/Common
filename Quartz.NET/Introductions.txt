@@ -1,0 +1,10 @@
+﻿创建人：韩迎龙(kencery)
+创建时间：2015-7-10
+
+	实现一个Quartz.NET作业调度的工作具有以下几步。
+第一步：安装Install-Package Quartz，安装完成之后多了Common.Logging.dll，Common.Logging.Core.dll，Quartz.dll
+第二步：安装Install-Package Common.Logging.Log4Net1211，安装完成之后多了Common.Logging.Log4net1211.dll,log4net.dll
+第三步：安装Install-Package Topshelf，安装完成之后多了Topshelf.dll
+第四步：安装Install-Package Topshelf.Log4Net,安装完成之后多了Topshelf.Log4Net
+
+第五步：
