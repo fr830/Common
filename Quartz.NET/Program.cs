@@ -5,12 +5,17 @@
 // 创建人：韩迎龙(kencery)
 // 创建时间：2015-7-10
 // </copyright>
+
+using System;
+
 namespace Quartz.NET
 {
     class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
+            Console.WriteLine("战斗力五点的渣渣");
+            Console.ReadLine();
         }
     }
 }
