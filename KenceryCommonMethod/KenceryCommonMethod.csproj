@@ -101,6 +101,7 @@
     <Compile Include="AuthorizeAttribute\LoginAttribute.cs" />
     <Compile Include="Json对象转换\JsonNetHelper.cs" />
     <Compile Include="Linq扩展方法\LinqExtendMethodHelper.cs" />
+    <Compile Include="缓存\HttpRuntimeCache.cs" />
     <Compile Include="缓存\MemcacheHelper.cs" />
     <Compile Include="MVC扩展方法\ControllersFactory.cs" />
     <Compile Include="MVC扩展方法\MvcDynamicHelper.cs" />
