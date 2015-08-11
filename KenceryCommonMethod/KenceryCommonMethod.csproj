@@ -101,7 +101,7 @@
     <Compile Include="AuthorizeAttribute\LoginAttribute.cs" />
     <Compile Include="Json对象转换\JsonNetHelper.cs" />
     <Compile Include="Linq扩展方法\LinqExtendMethodHelper.cs" />
-    <Compile Include="Memcached缓存\MemcacheHelper.cs" />
+    <Compile Include="缓存\MemcacheHelper.cs" />
     <Compile Include="MVC扩展方法\ControllersFactory.cs" />
     <Compile Include="MVC扩展方法\MvcDynamicHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -124,7 +124,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Json对象转换\lib\Newtonsoft.Json.dll" />
-    <Content Include="Memcached缓存\lib\Memcached.ClientLibrary.dll" />
+    <Content Include="缓存\lib\Memcached.ClientLibrary.dll" />
     <Content Include="MsOffice转化Pdf图片PDF转换成图片\lib\Aspose.Slides.dll" />
     <Content Include="MsOffice转化Pdf图片PDF转换成图片\lib\Aspose.Words.dll" />
     <Content Include="MsOffice转化Pdf图片PDF转换成图片\lib\Microsoft.Office.Interop.PowerPoint.dll" />
