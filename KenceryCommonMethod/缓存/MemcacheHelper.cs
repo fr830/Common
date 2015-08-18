@@ -3,7 +3,7 @@
 // Copyright(c)2014-2034 Kencery.All rights reserved.
 // 个人博客：http://www.cnblogs.com/hanyinglong
 // 创建人：韩迎龙(kencery)
-// 创建时间：2015/04/24
+// 创建时间：2015-4-24
 // </copyright>
 using System;
 using System.Configuration;
@@ -15,7 +15,7 @@ namespace KenceryCommonMethod
     /// 封装使用Memchached信息，读取缓存存放在服务器
     /// <auther>
     ///     <name>Kencery</name>
-    ///     <date>2015/04/24</date>
+    ///     <date>2015-4-24</date>
     /// </auther>
     /// </summary>
     public class MemcacheHelper

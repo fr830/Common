@@ -80,6 +80,10 @@
       <EmbedInteropTypes>True</EmbedInteropTypes>
       <HintPath>MsOffice转化Pdf\lib\Office.dll</HintPath>
     </Reference>
+    <Reference Include="ServiceStack.Redis, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>缓存\lib\ServiceStack.Redis.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
@@ -101,6 +105,7 @@
     <Compile Include="AuthorizeAttribute\LoginAttribute.cs" />
     <Compile Include="Json对象转换\JsonNetHelper.cs" />
     <Compile Include="Linq扩展方法\LinqExtendMethodHelper.cs" />
+    <Compile Include="Smtp邮件发送\EmailHelper.cs" />
     <Compile Include="缓存\HttpRuntimeCache.cs" />
     <Compile Include="缓存\MemcacheHelper.cs" />
     <Compile Include="MVC扩展方法\ControllersFactory.cs" />
@@ -114,6 +119,7 @@
     <Compile Include="文件操作File\FileBaseHelper.cs" />
     <Compile Include="枚举_下拉框%28Enum%29\DropDownListHelper.cs" />
     <Compile Include="枚举_下拉框%28Enum%29\EnumHelper.cs" />
+    <Compile Include="缓存\RedisHelper.cs" />
     <Compile Include="获取电脑信息\GetComputerHelper.cs" />
     <Compile Include="读取WebConfig\WebConfigHelper.cs" />
     <Compile Include="通用类\EncryptHelper.cs" />
@@ -142,10 +148,9 @@
     <Content Include="文件上传\html\FileUpload.html" />
     <Content Include="文件上传\js\FileUpload.js" />
     <Content Include="文件上传\js\jquery-1.7.1-min.js" />
+    <Content Include="缓存\lib\ServiceStack.Redis.dll" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Smtp邮件发送\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
