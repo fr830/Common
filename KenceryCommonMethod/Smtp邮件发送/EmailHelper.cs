@@ -18,7 +18,7 @@ namespace KenceryCommonMethod
     /// </summary>
     /// <auther>
     ///     <name>Kencery</name>
-    ///     <date>2015-8-7</date>
+    ///     <date>2015-8-18</date>
     /// </auther>
     public class Email
     {
@@ -233,27 +233,37 @@ namespace KenceryCommonMethod
     }
 
     /// <summary>
-    /// 
+    ///邮件发送接口调用：bool isTrue=EmailInfo.SendEmail(参数,........);   参数解释参考方法
+    /// <auther>
+    ///     <name>Kencery</name>
+    ///     <date>2015-8-18</date>
+    /// </auther>
     /// </summary>
     public static class EmailInfo
     {
         /// <summary>
-        /// 
+        /// 邮件发送方法，传递参数(使用中如出现问题，请调试)
         /// </summary>
-        /// <param name="from"></param>
-        /// <param name="to"></param>
-        /// <param name="cc"></param>
-        /// <param name="bcc"></param>
-        /// <param name="subject"></param>
-        /// <param name="body"></param>
-        /// <param name="isBodyHtml"></param>
-        /// <param name="attachments"></param>
-        /// <param name="host"></param>
-        /// <param name="password"></param>
-        /// <returns></returns>
+        /// <param name="from">发送者邮箱名称(从配置文件中读取，比如：934532778@qq.com)(必填项)</param>
+        /// <param name="to">接收者邮箱列表，可以传递多个，使用string[]表示(从配置文件中读取)(必填项)</param>
+        /// <param name="cc">抄送者邮箱列表，可以传递多个，使用string[]表示(从配置文件中读取)</param>
+        /// <param name="bcc">秘抄者邮箱列表，可以传递多个，使用string[]表示(从配置文件中读取)</param>
+        /// <param name="subject">邮件主题，构造(必填项)</param>
+        /// <param name="body">邮件内容，构造发送的邮件内容，可以发送网页(必填项)</param>
+        /// <param name="isBodyHtml">是否是HTML格式，true为是，false为否</param>
+        /// <param name="attachments">邮箱附件，可以传递多个，使用string[]表示(从配置文件中读取)，可空</param>
+        /// <param name="host">邮箱服务器(从配置文件中读取，如：smtp@qq.com)(必填项)</param>
+        /// <param name="password">邮箱密码(从配置文件中读取，from邮箱的密码)(必填项)</param>
+        /// <returns>邮件发送成功，返回true,否则返回false</returns>
         public static bool SendEmail(string from, string[] to, string[] cc, string[] bcc, string subject, string body,
             bool isBodyHtml, string[] attachments, string host, string password)
         {
+            //邮箱发送不满足，限制这些参数必须传递
+            if (from == "" || to.Length <= 0 || subject == "" || body == "" || host == "" || password == "")
+            {
+                return false;
+            }
+
             var emil = new Email
             {
                 From = @from,
