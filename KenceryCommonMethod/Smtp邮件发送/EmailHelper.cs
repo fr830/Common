@@ -83,17 +83,17 @@ namespace KenceryCommonMethod
         /// <summary>
         /// 邮箱服务器，如果没有定义邮箱服务器，则根据serviceType和Sender组成邮箱服务器
         /// </summary>
-        public string Host
-        {
-            get
-            {
-                return string.IsNullOrEmpty(_host)
-                    ? (this.ServiceType + "." +
-                       Sender.Split("@".ToCharArray(), StringSplitOptions.RemoveEmptyEntries)[1])
-                    : _host;
-            }
-            set { _host = value; }
-        }
+        //public string Host
+        //{
+        //    get
+        //    {
+        //        return string.IsNullOrEmpty(_host)
+        //            ? (this.ServiceType + "." +
+        //               Sender.Split("@".ToCharArray(), StringSplitOptions.RemoveEmptyEntries)[1])
+        //            : _host;
+        //    }
+        //    set { _host = value; }
+        //}
 
         /// <summary>
         /// 邮箱账号(默认为发送者邮箱的账号)
@@ -215,7 +215,7 @@ namespace KenceryCommonMethod
             //发送邮件代码实现
             var smtpClient = new SmtpClient
             {
-                Host = this.Host,
+               // Host = this.Host,
                 Credentials = new NetworkCredential(this.UserName, this.Password)
             };
             //认证
@@ -274,7 +274,7 @@ namespace KenceryCommonMethod
                 Body = body,
                 IsBodyHtml = isBodyHtml,
                 Attachments = attachments,
-                Host = host,
+                //Host = host,
                 Password = password
             };
             try

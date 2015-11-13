@@ -6,12 +6,9 @@
 // 创建时间：2015-8-18
 // </copyright>
 
-
 using System;
 using System.Collections.Generic;
 using System.Configuration;
-using System.Security.Policy;
-using NPOI.OpenXml4Net.OPC;
 using ServiceStack.Redis;
 
 namespace KenceryCommonMethod
@@ -31,7 +28,8 @@ namespace KenceryCommonMethod
         /// <param name="readWriteHosts">只写服务器</param>
         /// <param name="readOnlyHosts">只读服务器</param>
         /// <returns></returns>
-        private static PooledRedisClientManager CreateRedisManager(string[] readWriteHosts, string[] readOnlyHosts)
+        private static PooledRedisClientManager CreateRedisManager(IEnumerable<string> readWriteHosts,
+            IEnumerable<string> readOnlyHosts)
         {
             //支持读写分离，均衡负载
             return new PooledRedisClientManager(readWriteHosts, readOnlyHosts, new RedisClientManagerConfig
@@ -43,10 +41,10 @@ namespace KenceryCommonMethod
         }
 
         /// <summary>
-        /// 调用CreateRedisManager方法，创建连接池管理对象,Redis服务器地址在配置文件中配置
+        /// 调用CreateRedisManager方法，创建连接池管理对象,Redis服务器地址在配置文件中配置(创建只读，只写连接池)
         /// <add key="RedisHosts" value="127.0.0.1:6379" />
         /// </summary>
-        private static PooledRedisClientManager _prcm = CreateRedisManager(
+        private static readonly PooledRedisClientManager Prcm = CreateRedisManager(
             ConfigurationManager.AppSettings["Hosts"].Split(",".ToCharArray(), StringSplitOptions.RemoveEmptyEntries),
             ConfigurationManager.AppSettings["Hosts"].Split(",".ToCharArray(), StringSplitOptions.RemoveEmptyEntries));
 
@@ -58,7 +56,7 @@ namespace KenceryCommonMethod
         /// <param name="val">值</param>
         public static void Set<T>(string key, T val)
         {
-            using (IRedisClient rdc = _prcm.GetClient())
+            using (IRedisClient rdc = Prcm.GetClient())
             {
                 rdc.Set<T>(key, val);
             }
@@ -72,7 +70,7 @@ namespace KenceryCommonMethod
         /// <returns></returns>
         public static T Get<T>(string key) where T : class
         {
-            using (IRedisClient rdc = _prcm.GetReadOnlyClient())
+            using (IRedisClient rdc = Prcm.GetReadOnlyClient())
             {
                 return rdc.Get<T>(key);
             }
@@ -84,7 +82,7 @@ namespace KenceryCommonMethod
         /// <param name="key">键</param>
         public static void Remove(string key)
         {
-            using (IRedisClient rdc = _prcm.GetClient())
+            using (IRedisClient rdc = Prcm.GetClient())
             {
                 rdc.Remove(key);
             }
@@ -97,20 +95,20 @@ namespace KenceryCommonMethod
         /// <returns>如果包含，返回true,否则返回false</returns>
         public static bool ContainsKey(string key)
         {
-            using (IRedisClient rdc = _prcm.GetReadOnlyClient())
+            using (IRedisClient rdc = Prcm.GetReadOnlyClient())
             {
                 return rdc.ContainsKey(key);
             }
         }
 
         /// <summary>
-        /// 
+        /// 给缓存中添加Object对象，使用：RedisHelper.Add(key,值(需要存放的值))
         /// </summary>
-        /// <param name="key"></param>
-        /// <param name="value"></param>
+        /// <param name="key">键</param>
+        /// <param name="value">值</param>
         public static void Add(string key, object value)
         {
-            using (IRedisClient rdc = _prcm.GetClient())
+            using (IRedisClient rdc = Prcm.GetClient())
             {
                 if (!rdc.ContainsKey(key))
                 {
@@ -124,14 +122,13 @@ namespace KenceryCommonMethod
         }
 
         /// <summary>
-        /// 
+        /// 根据key刷新缓存中的数据信息，使用：RedisHelper.RefreshCache(key)
         /// </summary>
-        /// <typeparam name="T"></typeparam>
-        /// <param name="key"></param>
-        /// <returns></returns>
-        public static Void RefreshCache<T>(string key) where T : class
+        /// <typeparam name="T">缓存类型</typeparam>
+        /// <param name="key">键</param>
+        public static void RefreshCache<T>(string key) where T : class
         {
-            using (IRedisClient rdc = _prcm.GetClient())
+            using (IRedisClient rdc = Prcm.GetClient())
             {
                 var value = rdc.Get<T>(key);
                 rdc.Remove(key);
@@ -140,25 +137,25 @@ namespace KenceryCommonMethod
         }
 
         /// <summary>
-        /// 
+        /// 根据key集合信息读取缓存中的键值对，返回字典形式的数据存放，使用：RedisHelper.GetList(keys);
         /// </summary>
-        /// <param name="keys"></param>
-        /// <returns></returns>
+        /// <param name="keys">key集合</param>
+        /// <returns>返回字典集合</returns>
         public static Dictionary<string, string> GetList(List<string> keys)
         {
-            using (IRedisClient rdc = _prcm.GetReadOnlyClient())
+            using (IRedisClient rdc = Prcm.GetReadOnlyClient())
             {
                 return rdc.GetValuesMap<string>(keys);
             }
         }
 
         /// <summary>
-        /// 
+        /// 将字典集合添加到缓存中，使用：RedisHelper.Set(values);
         /// </summary>
-        /// <param name="values"></param>
+        /// <param name="values">字典集合信息</param>
         public static void Set(Dictionary<string, string> values)
         {
-            using (IRedisClient rdc = _prcm.GetReadOnlyClient())
+            using (IRedisClient rdc = Prcm.GetReadOnlyClient())
             {
                 rdc.SetAll(values);
             }
