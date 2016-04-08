@@ -1,0 +1,33 @@
+﻿#C#、ASP.NET、ASP.NET MVC公共类整理
+1. AuthorizeAttribute登录权限限制
+	* 封装用户登录信息，[Login]用户只有登录才能访问，[AllowAnonymous]用户不需要登录既可以访问(MVC特性)
+2. Json对象转换
+	* Json.NET对Json字符串转换成对象，对象转换成Json字符串
+	* JavaScript对Json字符串转换成对象，对象转换成Json字符串
+3. Linq扩展方法
+	* 扩展OrderBy方法，实现根据属性和顺序(倒序)进行排序
+4. MsOffice转化Pdf图片PDF转换成图片
+	* 将Office系列软件(World)转换成PDF格式的文档和图片形式存放
+5. MVC扩展方法
+	* 将对象(主要是匿名对象)转换为View层可以访问的对象(dynamic),ViewBag调用
+6. SMTP邮件发送
+	* 封装发送邮件的公共类
+7. Zip压缩通用类库
+	* 对原始文件进行压缩(压缩文件，文件夹，流)以及解压缩
+8. 操作Excel
+	* 使用NPOI导出Excel,传递的集合是List对象(实体集合)
+	* 使用NPOI导出Excel，传递的集合是DataTable对象(暂未实现)
+9. 读取WebConfig
+	* 读取WebConfig中AppSettings的信息和数据库连接字符串
+10. 对象转化器
+	* 将对象转换成List集合
+11. 缓存
+12. 获取电脑信息
+13. 枚举_下拉框(Enum)
+	* 对枚举进行读取和获取Description属性
+	* 将枚举值存放到下拉框中的实现
+14. 通用类
+15. 文件操作File
+16. 文件上传
+17. 验证码
+	* 网站中一般验证码的实现
