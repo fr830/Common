@@ -4,7 +4,7 @@
 2. Json对象转换
 	* Json.NET、javaScriptSerializer对Json字符串转换成对象，对象转换成Json字符串
 3. Linq扩展方法
-	* 扩展OrderBy方法，实现根据属性和顺序(倒序)进行排序
+	* 扩展OrderBy自定义排序,JOIN方法
 4. MsOffice转化Pdf图片PDF转换成图片
 	* 将Office系列软件(World)转换成PDF格式的文档和图片形式存放
 5. MVC扩展方法

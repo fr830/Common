@@ -11,7 +11,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
-using Aspose.Words.Properties;
 
 namespace KenceryCommonMethod
 {
@@ -24,7 +23,7 @@ namespace KenceryCommonMethod
     ///     <date>2014/12/18</date>
     /// </auther>
     /// 修改记录：时间  内容  姓名
-    ///     1.  20150506 添加linq Join扩展方法  kencery,xiaoji提供
+    ///     1.  20150506 添加linq Join扩展方法  刘小吉提供
     /// </summary>
     public static class LinqExtendMethodHelper
     {
@@ -74,7 +73,6 @@ namespace KenceryCommonMethod
             }
             return source.Aggregate((x, y) => x + separator + y);
         }
-
 
     }
 }
