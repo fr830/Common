@@ -8,7 +8,7 @@
 4. MsOffice转化Pdf图片PDF转换成图片
 	* 将Office系列软件(World)转换成PDF格式的文档和图片形式存放
 5. MVC扩展方法
-	* 将对象(主要是匿名对象)转换为View层可以访问的对象(dynamic),ViewBag调用
+	* 封装分离控制器的实现类、将对象(主要是匿名对象)转换为View层可以访问的对象(dynamic),ViewBag调用
 6. SMTP邮件发送
 	* 封装发送邮件的公共类
 7. Zip压缩通用类库
