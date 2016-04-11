@@ -1,6 +1,4 @@
-﻿![Kencery版权所有](http://pic.cnblogs.com/avatar/a359161.png?id=01220003)
-
-<h1 align = "center">这是居中标题</h1>
+﻿<h2 align = "center">韩迎龙个人履历</h2>
 
 韩迎龙个人简历
 姓名	  韩迎龙	性别	男
@@ -65,3 +63,4 @@
 
 自我评价 	可独立开发项目或者代领团队开发中小型项目，对项目的整体把控能力较高，适应长时间出差，自我学习能力强
 
+![Kencery版权所有](http://pic.cnblogs.com/avatar/a359161.png?id=01220003)
