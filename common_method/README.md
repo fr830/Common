@@ -2,8 +2,7 @@
 1. AuthorizeAttribute登录权限限制
 	* 封装用户登录信息，[Login]用户只有登录才能访问，[AllowAnonymous]用户不需要登录既可以访问(MVC特性)
 2. Json对象转换
-	* Json.NET对Json字符串转换成对象，对象转换成Json字符串
-	* JavaScript对Json字符串转换成对象，对象转换成Json字符串
+	* Json.NET、javaScriptSerializer对Json字符串转换成对象，对象转换成Json字符串
 3. Linq扩展方法
 	* 扩展OrderBy方法，实现根据属性和顺序(倒序)进行排序
 4. MsOffice转化Pdf图片PDF转换成图片

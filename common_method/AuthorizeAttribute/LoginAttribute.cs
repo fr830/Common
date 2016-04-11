@@ -7,9 +7,7 @@
 // </copyright>
 
 using System;
-using System.Web;
 using System.Web.Mvc;
-using System.Web.UI.WebControls;
 
 namespace KenceryCommonMethod
 {
@@ -30,57 +28,15 @@ namespace KenceryCommonMethod
         /// </summary>
         private string _authUrl = string.Empty;
 
-        public string AuthUrl
-        {
-            get
-            {
-                return _authUrl.Trim();
-            }
-            set
-            {
-                if (string.IsNullOrEmpty(value))
-                {
-                    throw new ArgumentNullException("AuthUrl为空,验证用户登录信息的用户登录地址不能为空");
-                }
-                _authUrl = value.Trim();
-            }
-        }
-
         /// <summary>
         /// 该值表示yoghurt登录保存登录信息的键名，默认user,在web.Config中设置
         /// </summary>
         private string _authSaveKey = string.Empty;
 
-        public string AuthSaveKey
-        {
-            get { return _authSaveKey.Trim(); }
-            set
-            {
-                if (string.IsNullOrEmpty(value))
-                {
-                    throw new ArgumentNullException("AuthSaveKey为空，验证用户登录的时候保存的登录键信息不能为空");
-                }
-                _authSaveKey = value.Trim();
-            }
-        }
-
         /// <summary>
         /// 该值表示用户登录保存登录信息的类型，默认Session,在web.Config中设置
         /// </summary>
         private string _authSaveType = string.Empty;
-
-        public string AuthSaveType
-        {
-            get { return _authSaveType.Trim().ToUpper(); }
-            set
-            {
-                if (string.IsNullOrEmpty(value))
-                {
-                    throw new ArgumentNullException("AuthSaveType为空，验证用户登录的时候未保存键信息类型，类型不能为空");
-                }
-                _authSaveType = value.Trim().ToUpper();
-            }
-        }
 
         /// <summary>
         /// 默认构造函数
@@ -91,14 +47,14 @@ namespace KenceryCommonMethod
             const string saveKey = "user"; //验证(登录存放用户信息)，从Web.Config中读取
             const string saveType = "Session"; //存放类型判断(Session或者Cookie存放)，，从Web.Config中读取
             _authUrl = string.IsNullOrEmpty(authUrl) ? "/User/Index" : authUrl;
-
         }
 
         /// <summary>
         /// 构造函数重载
         /// </summary>
         /// <param name="authUrl"></param>
-        public LoginAttribute(string authUrl) : this()
+        public LoginAttribute(string authUrl)
+            : this()
         {
             _authUrl = authUrl;
         }
@@ -108,7 +64,8 @@ namespace KenceryCommonMethod
         /// </summary>
         /// <param name="authUrl"></param>
         /// <param name="saveKey"></param>
-        public LoginAttribute(string authUrl, string saveKey) : this(authUrl)
+        public LoginAttribute(string authUrl, string saveKey)
+            : this(authUrl)
         {
             _authSaveKey = saveKey;
             _authSaveType = "Session";
@@ -120,9 +77,52 @@ namespace KenceryCommonMethod
         /// <param name="authUrl"></param>
         /// <param name="saveKey"></param>
         /// <param name="saveType"></param>
-        public LoginAttribute(string authUrl, string saveKey, string saveType) : this(authUrl, saveKey)
+        public LoginAttribute(string authUrl, string saveKey, string saveType)
+            : this(authUrl, saveKey)
         {
             _authSaveType = saveType;
+        }
+
+        public string AuthUrl
+        {
+            get
+            {
+                return _authUrl.Trim();
+            }
+            set
+            {
+                if (string.IsNullOrEmpty(value))
+                {
+                    throw new Exception("AuthUrl为空,验证用户登录信息的用户登录地址不能为空");
+                }
+                _authUrl = value.Trim();
+            }
+        }
+
+        public string AuthSaveKey
+        {
+            get { return _authSaveKey.Trim(); }
+            set
+            {
+                if (string.IsNullOrEmpty(value))
+                {
+                    throw new Exception("AuthSaveKey为空，验证用户登录的时候保存的登录键信息不能为空");
+                }
+                _authSaveKey = value.Trim();
+            }
+        }
+
+        public string AuthSaveType
+        {
+            get { return _authSaveType.Trim().ToUpper(); }
+            set
+            {
+                if (string.IsNullOrEmpty(value))
+                {
+                    throw new Exception("AuthSaveType为空，验证用户登录的时候未保存键信息类型，类型不能为空");
+                }
+                _authSaveType = value.Trim().ToUpper();
+            }
         }
 
         public void OnAuthorization(AuthorizationContext filterContext)
@@ -163,7 +163,7 @@ namespace KenceryCommonMethod
                     }
                     break;
                 default:
-                    throw new ArgumentNullException("用户保存登录信息的方法不能为空，只能为Cookie和Session，请您检查");
+                    throw new Exception("用户保存登录信息的方法不能为空，只能为Cookie和Session，请您检查");
             }
         }
     }
