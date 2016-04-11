@@ -215,7 +215,6 @@ namespace KenceryCommonMethod
             }
             catch (Exception exception)
             {
-
                 throw new Exception("PDF转换图片出现错误了，错误原因：" + exception.Message);
             }
         }
