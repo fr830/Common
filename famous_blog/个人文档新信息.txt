@@ -46,5 +46,7 @@
 	(2): Add-Migration 自己起名称(AddNewTypeAge)，如报错，请重新安装Entity FrameWork
 	(3): Update-Database -StartUpProjectName 项目名称(EFCodeFirstMapper) –Verbose
 
+http://www.cnblogs.com/landeanfen/tag/WebApi/  懒得安分  WebApi
+
 版权声明：本项目中的所有公用方法来自个人总结和互联网资料，如果和您的版权冲突，请联系我处理，
 	如大家使用本项目中的任何公用方法，希望留下创始人备注信息，谢谢大家
