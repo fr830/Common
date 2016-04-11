@@ -6,6 +6,11 @@
 4. 重要的事情强调三遍，希望大家能够积极的维护起来这个项目。
 5. 最后诚心的感谢大家，希望在这里能够找到大家需要用的东西
 
+#文件说明
+1. common_method(公共方法)
+2. famous_bolg(知名博客整理)
+3. resule(个人履历)
+
 #本人简介
 1. 想查看更多信息，请查看博客园：http:www.cnblogs.com/hanyinglong
 2. ASP.NET MVC权限系列：http://www.cnblogs.com/hanyinglong/archive/2013/03/22/2976478.html
