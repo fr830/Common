@@ -24,7 +24,7 @@ namespace KenceryCommonMethod
     /// </summary>
     public static class JsonNetHelper
     {
-        #region-----共用静态方法  Json.NET进行转换Json对象-----
+        #region-----共用静态方法  Json.NET进行转换Json对象,推荐使用它，效率是JavaScriptSerializer的好几倍-----
 
         /// <summary>
         /// 将实体对象转换为Json对象，生成字符串
@@ -39,7 +39,6 @@ namespace KenceryCommonMethod
             }
             catch (Exception ex)
             {
-
                 throw new Exception(ex.Message);
             }
         }
@@ -80,7 +79,6 @@ namespace KenceryCommonMethod
             }
             catch (Exception ex)
             {
-
                 throw new Exception(ex.Message);
             }
         }
