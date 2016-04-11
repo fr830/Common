@@ -1,5 +1,5 @@
 ﻿#前人挖井，后人吃水
-1. H:JL总结的博客整理    [H:JL总结的博客整理]("http://www.cnblogs.com/HJL-Blog/p/4459245.html" H:JL总结的博客整理)
+1. H:JL总结的博客整理    [H:JL总结的博客整理](http://www.cnblogs.com/HJL-Blog/p/4459245.html "H:JL总结的博客整理")
  
 #个人知名博客
 1. 田园里的蟋蟀     [田园里的蟋蟀](http://www.cnblogs.com/xishuai/ "田园里的蟋蟀")              
@@ -8,10 +8,10 @@
 5. 刘小吉           [刘小吉](http://www.cnblogs.com/liuxiaoji/ "刘小吉"")
 6. 宋沄剑           [宋沄剑](http://www.cnblogs.com/CareySon/category/421169.html "宋沄剑")
 7. 秦时明月         [秦时明月siglar系列](http://www.cnblogs.com/humble/  "秦时明月Siglar系列")
-8. 吉日嘎拉         [吉日嘎拉]("http://www.cnblogs.com/jirigala/default.aspx" 吉日嘎拉)
+8. 吉日嘎拉         [吉日嘎拉](http://www.cnblogs.com/jirigala/default.aspx "吉日嘎拉")
 9. 叶小钗           [叶小钗](http://www.cnblogs.com/yexiaochai/default.html "叶小钗")
-10. 张善友           [张善友]("http://www.cnblogs.com/shanyou/archive/2012/06/06/2537583.html" 张善友)
-11. 圣殿骑士         [圣殿骑士]("http://www.cnblogs.com/legendxian/archive/2012/06/18/2553111.html" 圣殿骑士)
+10. 张善友           [张善友](http://www.cnblogs.com/shanyou/archive/2012/06/06/2537583.html "张善友")
+11. 圣殿骑士         [圣殿骑士](http://www.cnblogs.com/legendxian/archive/2012/06/18/2553111.html "圣殿骑士")
 12. Fish Li          [Fish Li]("http://www.cnblogs.com/fish-li/" Fish Li)
 
 #ASP.NET MVC/WebApi
