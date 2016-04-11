@@ -12,7 +12,7 @@
 9. 叶小钗           [叶小钗](http://www.cnblogs.com/yexiaochai/default.html "叶小钗")
 10. 张善友           [张善友](http://www.cnblogs.com/shanyou/archive/2012/06/06/2537583.html "张善友")
 11. 圣殿骑士         [圣殿骑士](http://www.cnblogs.com/legendxian/archive/2012/06/18/2553111.html "圣殿骑士")
-12. Fish Li          [Fish Li]("http://www.cnblogs.com/fish-li/" Fish Li)
+11. Fish Li         [Fish Li](http://www.cnblogs.com/fish-li "Fish Li")
 
 #ASP.NET MVC/WebApi
 1. MVC&EF架构(重典的博客)			      [MVC&EF架构](http://www.cnblogs.com/chsword/archive/2010/12/27/searchmodel_1.html "MVC&EF架构")
@@ -29,9 +29,9 @@
 4. EF 4.1(郝冠军)			   [Entity Framework 4.1系列](http://www.cnblogs.com/haogj/archive/2011/05/06/2038965.htm "Entity Framework 4.1系列")	  
 
 #架构和框架
-1. 引用程序框架实践(何镇汐)   [引用程序框架实践]("http://www.cnblogs.com/xiadao521/p/4059571.html" 引用程序框架实践)			   
-2. 人人网架构   [人人网工程师谈移动Web开发架构]("http://mp.weixin.qq.com/s?__biz=MjM5MzY2NDY0Ng==&mid=206538317&idx=2&sn=b3c114e0f83eca70f1a6092d36402765#rd" 人人网工程师谈移动Web开发架构)	
-3. 新浪网架构   [亿级用户下的新浪微博平台架构]("http://mp.weixin.qq.com/s?__biz=MzAwMzI3Njc1MA==&mid=401713175&idx=1&sn=5726b1ccc936215cf61e84dc1d8fcbe6&scene=2&srcid=0411ICbO3SJGL5KJRxFBZJTj&from=timeline&isappinstalled=0#wechat_redirect" 亿级用户下的新浪微博平台架构)
+1. 引用程序框架实践(何镇汐)   [引用程序框架实践](http://www.cnblogs.com/xiadao521/p/4059571.html "引用程序框架实践")			   
+2. 人人网架构   [人人网工程师谈移动Web开发架构](http://mp.weixin.qq.com/s?__biz=MjM5MzY2NDY0Ng==&mid=206538317&idx=2&sn=b3c114e0f83eca70f1a6092d36402765#rd "人人网工程师谈移动Web开发架构")	
+3. 新浪网架构   [亿级用户下的新浪微博平台架构](http://mp.weixin.qq.com/s?__biz=MzAwMzI3Njc1MA==&mid=401713175&idx=1&sn=5726b1ccc936215cf61e84dc1d8fcbe6&scene=2&srcid=0411ICbO3SJGL5KJRxFBZJTj&from=timeline&isappinstalled=0#wechat_redirect "亿级用户下的新浪微博平台架构")
 
 #Memcached和redis的使用
 1. Memcached和redis(凝聚平凡，创造非凡)   [Memcached和redis的区别](http://gnucto.blog.51cto.com/3391516/998509 "Memcached和redis的区别")
