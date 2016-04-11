@@ -12,8 +12,8 @@
 3. resule(个人履历)
 
 #本人简介
-1. 想查看更多信息，请查看博客园：http:www.cnblogs.com/hanyinglong
+1. 想查看更多信息，请查看博客园：http://www.cnblogs.com/hanyinglong
 2. ASP.NET MVC权限系列：http://www.cnblogs.com/hanyinglong/archive/2013/03/22/2976478.html
 3. 博客中涉猎比较多，希望对大家有用
 4. 吃水不忘挖井人
-5. 作者联系方式：18658152123，QQ技术群：159227188,QQ号：934532778，邮箱：hyl934532778@live.cn
+5. 作者联系方式:18658152123、QQ技术群:159227188、QQ号:934532778、邮箱:hyl934532778@live.cn
