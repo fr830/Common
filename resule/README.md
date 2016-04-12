@@ -7,9 +7,9 @@
 5. ~~求职意向：ASP.NET软件工程师~~	 
 
 ###2.开源博客
-1. cnblogs [cnblogs技术文章](http://www.cnblogs.com/hanyinglong "cnblogs技术文章"){:target="_blank"}
-2. 权限开源博客  [权限开源博客](http://www.cnblogs.com/hanyinglong/archive/2013/03/22/2976478.html "权限开源博客"){:target="_blank"}
-3. GitHub项目开源 [GitHub项目开源](https://github.com/kencery "GitHub项目开源"){:target="_blank"}
+1. cnblogs [cnblogs技术文章](http://www.cnblogs.com/hanyinglong "cnblogs技术文章")
+2. 权限开源博客  [权限开源博客](http://www.cnblogs.com/hanyinglong/archive/2013/03/22/2976478.html "权限开源博客")
+3. GitHub项目开源 [GitHub项目开源](https://github.com/kencery "GitHub项目开源")
 
 ###3.个人技能
 
