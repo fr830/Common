@@ -74,10 +74,10 @@
 		* 使用NPOI实现将数据导出Excel的功能。
 	* 项目技术：ASP.NET MVC，Nhibernate,Spring.Net,EasyUI，Jquery,Log4Net，NPOI,SQL Server
 6. 其它项目
-	* 陇原商城电子商务网站、长春红日桌椅租赁门户(http://www.hrzulin.com/)等
+	* 陇原商城电子商务网站、长春红日桌椅租赁门户(http://www.hrzulin.com)等
 
 ###6.自我描述
 	* 可独立开发项目或者代领团队开发中小型项目，对项目的整体把控能力较高，适应长时间出差，自我学习能力强
-	
+
 ###7.个人Logo
 ![Kencery版权所有](http://pic.cnblogs.com/avatar/a359161.png?id=01220003)
