@@ -12,7 +12,7 @@
 3. GitHub项目开源 [GitHub项目开源](https://github.com/kencery "GitHub项目开源")
 
 ###3.个人技能
-1. 熟练掌握C#语言，敏感词过滤，泛型，委托，事件,文件流的操作，了解反射,熟悉正则表达式的运用等。
+1. 熟练掌握C#语言、泛型、委托、事件、文件流、反射、正则表达式等。
 2. 熟练掌握ASP.NET MVC和WebForm开发技术，并能够熟练地使用Visual Studio开发工具。
 3. 熟练掌握SQL Server数据库，对数据库的优化有一定的了解，并且熟练使用一些ORM框架(Entity FrameWork, Nhibernate)以及linq，Sping.NET，有使用以上技术开发项目的经验。
 4. 熟练掌握为中小型项目搭建架构(三层架构集成)，对设计模式也有一定的了解，熟练使用Ajax异步请求实现刷新局部内容
@@ -21,6 +21,12 @@
 6. 熟悉ASP.NET生命周期，管道事件，状态保持机制(ViewState，Cookie,Session,Application)，页面缓存机制，全局应用程序的处理。
 7. 了解Http协议和Socket编程。
 
+
+###4.工作历程
+1. 2015-03到至今
+	* 公司名称：北京某O2O公司
+	* 在职职位：.NET/Java软件工程师
+	* 完成项目：
 
 
 工作经验	公司名称：浙江蓝奥教育科技有限公司
