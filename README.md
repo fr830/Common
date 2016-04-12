@@ -9,7 +9,8 @@
 #文件说明
 1. common_method(公共方法)
 2. famous_bolg(知名博客整理)
-3. resule(个人履历)
+3. html(特效整理)
+4. resule(个人履历)
 
 #本人简介
 1. 想查看更多信息，请查看博客园：http://www.cnblogs.com/hanyinglong
