@@ -12,6 +12,10 @@
 3. html(特效整理)
 4. resule(个人履历)
 
+#感恩(共用类提供者)
+1. 刘小吉
+2. 秦效甫
+
 #本人简介
 1. 想查看更多信息，请查看博客园：http://www.cnblogs.com/hanyinglong
 2. ASP.NET MVC权限系列：http://www.cnblogs.com/hanyinglong/archive/2013/03/22/2976478.html
