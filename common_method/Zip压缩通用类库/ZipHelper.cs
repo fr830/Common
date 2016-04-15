@@ -69,7 +69,7 @@ namespace KenceryCommonMethod
         }
 
         /// <summary>
-        /// 压缩文件夹，文件架下面包含文件夹
+        /// 压缩文件夹，文件夹下面包含文件夹
         /// </summary>
         /// <param name="filePath">源文件夹路径</param>
         /// <param name="savePath">保存为Zip包的目录</param>
@@ -131,7 +131,7 @@ namespace KenceryCommonMethod
         }
 
         /// <summary>
-        /// 解压缩(将压缩的文件解压到制定的文件夹下面)—解压到指定文件夹下面
+        /// 解压缩(将压缩的文件解压到指定的文件夹下面)—解压到指定文件夹下面
         /// </summary>
         /// <param name="zipFilePath">源压缩的文件路径</param>
         /// <param name="savePath">解压后保存文件到指定的文件夹</param>
