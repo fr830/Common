@@ -61,7 +61,7 @@ namespace KenceryCommonMethod
         /// <returns></returns>
         public static MemoryStream CreateStreamInfo(string validateCode)
         {
-            Bitmap image = new Bitmap((int) Math.Ceiling(validateCode.Length*12.0), 22);
+            Bitmap image = new Bitmap((int)Math.Ceiling(validateCode.Length * 12.0), 22);
             Graphics graphics = Graphics.FromImage(image);
             try
             {
@@ -120,9 +120,9 @@ namespace KenceryCommonMethod
             //定义生成验证码的字段存放
             string validateNumberStr = "";
             //生成其实序列化值
-            int seekSeek = unchecked((int) DateTime.Now.Ticks);
+            int seekSeek = unchecked((int)DateTime.Now.Ticks);
             Random seekRand = new Random(seekSeek);
-            int beginSeek = seekRand.Next(0, Int32.MaxValue - length*10000);
+            int beginSeek = seekRand.Next(0, Int32.MaxValue - length * 10000);
             int[] seeks = new int[length];
             for (int i = 0; i < length; i++)
             {
@@ -133,7 +133,7 @@ namespace KenceryCommonMethod
             for (int i = 0; i < length; i++)
             {
                 Random rand = new Random(seeks[i]);
-                int pownum = 1*(int) Math.Pow(10, length);
+                int pownum = 1 * (int)Math.Pow(10, length);
                 randMembers[i] = rand.Next(pownum, Int32.MaxValue);
             }
             //抽取随机数字
