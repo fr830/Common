@@ -6,6 +6,7 @@
 // 创建时间：2015/01/14
 // </copyright>
 
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -166,6 +167,102 @@ namespace KenceryCommonMethod
         public static bool IsString(this string value)
         {
             return value.IsMatch("^[1-9]*[0-9]*$");
+        }
+
+        #endregion
+
+        #region----------------刘小吉提供---------------
+
+        /// <summary>
+        /// 手机号码用替换
+        /// </summary>
+        /// <param name="phoneStr">手机号码</param>
+        /// <returns>13551192896 替换后135****2896</returns>
+        public static string ToPhone(this string phoneStr)
+        {
+            Regex regex = new Regex("(\\d{3})(\\d{4})(\\d{4})", RegexOptions.None);
+            return regex.Replace(phoneStr, "$1****$3");
+        }
+
+        /// <summary>
+        /// 邮箱替换
+        /// </summary>
+        /// <param name="emailStr">邮箱</param>
+        /// <returns>liuxiaoji@qq.com 替换后 l****@qq.com</returns>
+        public static string ToEmail(this string emailStr)
+        {
+            var pattern = @"^(?<header>\w).*?@";
+            Regex regex = new Regex(pattern);
+            var match = regex.Match(emailStr);
+            if (match.Success)
+            {
+                var replaceValue = match.Groups["header"].Value + "****@";
+                return Regex.Replace(emailStr, pattern, replaceValue);
+            }
+            return emailStr;
+        }
+
+        /// <summary>
+        /// 银行卡替换
+        /// </summary>
+        /// <param name="bankCardNumber">银行卡号</param>
+        /// <returns>返回处理后的银行卡号</returns>
+        public static string ToBankCardNumber(this string bankCardNumber)
+        {
+            if (bankCardNumber.Length > 6)
+            {
+                Regex regex = new Regex("(\\d{6})(\\d*)");
+                return regex.Replace(bankCardNumber, "$1***");
+            }
+            else
+            {
+                return bankCardNumber;
+            }
+        }
+
+        /// 姓名替换
+        /// </summary>
+        /// <param name="name">姓名</param>
+        /// <returns>刘小吉 替换后 刘小***</returns>
+        public static string ToAccountNameOrCompanyName(string name)
+        {
+            if (name.Length > 2)
+            {
+                return name.Substring(0, name.Length - 1) + "***";
+            }
+            else
+            {
+                return name;
+            }
+        }
+
+        /// <summary>
+        /// 处理小数点(如果小数点后面最后一位是0，则不显示)
+        /// </summary>
+        /// <param name="value">值</param>
+        /// <returns>不显示末尾的0</returns>
+        public static string TrimObjectZero(this object value)
+        {
+            if (value == null) return string.Empty;
+            string originalValue = value.ToString();
+            if (originalValue.IndexOf(".") > -1)
+            {
+                return value.ToString().TrimEnd('0').TrimEnd('.');
+            }
+            else
+            {
+                return value.ToString();
+            }
+        }
+
+        /// <summary>
+        /// 是否是周末
+        /// </summary>
+        /// <param name="date">时间</param>
+        /// <returns>结果,如果是周末，则返回true，否则返回false</returns>
+        public static bool IsWeekend(this DateTime date)
+        {
+            return date.DayOfWeek == DayOfWeek.Saturday || date.DayOfWeek == DayOfWeek.Sunday;
         }
 
         #endregion
