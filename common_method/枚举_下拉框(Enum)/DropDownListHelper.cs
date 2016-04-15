@@ -17,8 +17,6 @@ namespace KenceryCommonMethod
     ///     <name>Kencery</name>
     ///     <date>2014/7/3</date>
     /// </auther>
-    /// 修改记录：时间  内容  姓名
-    ///     1.
     /// </summary>
     public  class DropDownListHelper
     {
