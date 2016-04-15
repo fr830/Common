@@ -160,6 +160,5 @@ namespace KenceryCommonMethod
                 rdc.SetAll(values);
             }
         }
-
     }
 }

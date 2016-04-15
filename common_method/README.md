@@ -20,6 +20,7 @@
 10. 对象转化器
 	* 将对象转换成List集合
 11. 缓存
+	* HttpRuntimeCache、Memcache、Redis缓存封装类
 12. 获取电脑信息
 13. 枚举_下拉框(Enum)
 	* 读取枚举值heDescription属性，将枚举值存放到下拉框中实现
