@@ -201,7 +201,7 @@ namespace KenceryCommonMethod
             }
 
             //邮件标题
-            Encoding encoding = Encoding.GetEncoding("GB2312");
+            Encoding encoding = Encoding.GetEncoding("UTF-8");
             mailMessage.Subject = string.Format("?={0}?B?{1}?=", encoding.HeaderName,
                 Convert.ToBase64String(encoding.GetBytes(this.Subject), Base64FormattingOptions.None));
             //邮件正文是否为HTML格式
@@ -215,7 +215,7 @@ namespace KenceryCommonMethod
             //发送邮件代码实现
             var smtpClient = new SmtpClient
             {
-               // Host = this.Host,
+                // Host = this.Host,
                 Credentials = new NetworkCredential(this.UserName, this.Password)
             };
             //认证
