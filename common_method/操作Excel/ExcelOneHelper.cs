@@ -245,10 +245,10 @@ namespace KenceryCommonMethod
         ///     (3):调用此方法如下：OperationExcelOneHelper.LeadSqlToExcelInfo<T>(httpPostedFileBase,list);
         ///     (4):调用完成之后进行循环操作读取到的数据
         /// </summary>
-        /// <typeparam name="T"></typeparam>
-        /// <param name="httpPostedFileBase"></param>
-        /// <param name="list"></param>
-        /// <returns></returns>
+        /// <typeparam name="T">需要返回的实体对象</typeparam>
+        /// <param name="httpPostedFileBase">上传的文件流信息</param>
+        /// <param name="list">需要转换的格式</param>
+        /// <returns>返回从Excel中读取到的集合信息返回</returns>
         public static IList<T> LeadSqlToExcelInfo(HttpPostedFileBase httpPostedFileBase, List<string> list)
         {
             //获取该文件的扩展名

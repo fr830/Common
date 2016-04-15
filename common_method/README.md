@@ -14,8 +14,7 @@
 7. Zip压缩通用类库
 	* 对原始文件进行压缩(压缩文件，文件夹，流)以及解压缩
 8. 操作Excel
-	* 使用NPOI导出Excel,传递的集合是List对象(实体集合)
-	* 使用NPOI导出Excel，传递的集合是DataTable对象(暂未实现)
+	* 使用NPOI导出Excel,传递的集合是List对象(实体集合),类(ExcelBaseHelper、ExcelOneHelper)
 9. 读取WebConfig
 	* 读取WebConfig中AppSettings的信息和数据库连接字符串
 10. 对象转化器
