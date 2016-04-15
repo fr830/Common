@@ -22,6 +22,7 @@
 11. 缓存
 	* HttpRuntimeCache、Memcache、Redis缓存封装类
 12. 获取电脑信息
+	* 读取电脑信息(IP、电脑名称、Mac地址)
 13. 枚举_下拉框(Enum)
 	* 读取枚举值heDescription属性，将枚举值存放到下拉框中实现
 14. 通用类
