@@ -146,15 +146,15 @@ namespace KenceryCommonMethod
         public static string DesDecryptInfo(string source, string sKey)
         {
             var desCrypto = new DESCryptoServiceProvider(); //初始化对象
-            int length = source.Length/2;
+            int length = source.Length / 2;
             byte[] byteInputByteArray = new byte[length];
 
             //循环数据流
             int i;
             for (int x = 0; x < length; x++)
             {
-                i = Convert.ToInt32(source.Substring(x*2, 2), 16);
-                byteInputByteArray[x] = (byte) i;
+                i = Convert.ToInt32(source.Substring(x * 2, 2), 16);
+                byteInputByteArray[x] = (byte)i;
             }
             //组织返回解密后的字符串
             desCrypto.Key = Encoding.ASCII.GetBytes(FormsAuthentication.HashPasswordForStoringInConfigFile(sKey, "md5")
@@ -212,12 +212,12 @@ namespace KenceryCommonMethod
             byte[] bytes = new byte[source.Length];
             for (int i = 0; i <= source.Length - 1; i++)
             {
-                bytes[i] = (byte) ((byte) source[i] + 1);
+                bytes[i] = (byte)((byte)source[i] + 1);
             }
             source = "";
             for (int i = bytes.Length - 1; i >= 0; i--)
             {
-                source += ((char) bytes[i]).ToString(CultureInfo.InvariantCulture);
+                source += ((char)bytes[i]).ToString(CultureInfo.InvariantCulture);
             }
             return source;
         }
@@ -232,12 +232,12 @@ namespace KenceryCommonMethod
             byte[] bytes = new byte[source.Length];
             for (int i = 0; i <= source.Length - 1; i++)
             {
-                bytes[i] = (byte) ((byte) source[i] - 1);
+                bytes[i] = (byte)((byte)source[i] - 1);
             }
             source = "";
             for (int i = bytes.Length - 1; i >= 0; i--)
             {
-                source += ((char) bytes[i]).ToString(CultureInfo.InvariantCulture);
+                source += ((char)bytes[i]).ToString(CultureInfo.InvariantCulture);
             }
             return source;
         }

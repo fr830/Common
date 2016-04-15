@@ -26,6 +26,9 @@
 13. 枚举_下拉框(Enum)
 	* 读取枚举值heDescription属性，将枚举值存放到下拉框中实现
 14. 通用类
+	* EncryptHelper 各种加密/伪解密        StatusCode 系统中出现的错误枚举
+	* StringRegexHelper 对字符串验证的操作(正则表达式,规范)
+	* StringToolsHelper 对字符串进行扩展
 15. 文件操作File
 	* 文件是否存在、查找文件中匹配的内容、文件加密解密
 16. 文件上传
