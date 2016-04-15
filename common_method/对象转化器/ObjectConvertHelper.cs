@@ -20,8 +20,6 @@ namespace KenceryCommonMethod
     ///     <name>Kencery</name>
     ///     <date>2014/12/11</date>
     /// </auther>
-    /// 修改记录：时间  内容  姓名
-    ///     1.
     /// </summary>
     public static class ObjectConvertHelper
     {
