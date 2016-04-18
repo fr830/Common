@@ -33,6 +33,7 @@ namespace KenceryCommonMethod
     ///     8.StrByteLength     得到字符串的字节数
     ///     9.HtmlToText     将HTML文件转换成文本文件
     ///     10.DateDiff    根据输入的开始时间和结束时间计算返回最后的日期差
+	///		11.IsTrueObject  判断是否是引用类型/值类型
     /// </summary>
     public static class StringToolsHelper
     {
@@ -261,6 +262,16 @@ namespace KenceryCommonMethod
                 default:
                     return dateTime.ToString(CultureInfo.InvariantCulture);
             }
+        }
+		
+		/// <summary>
+        /// 判断对象是值类型还是引用类型
+        /// </summary>
+        /// <param name="obj">需要判断的对象</param>
+        /// <returns> true为值类型，false为引用类型</returns>
+        public static bool IsTrueObject(Object obj)
+        {
+            return obj.GetType().IsValueType;
         }
     }
 }

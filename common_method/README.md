@@ -28,7 +28,7 @@
 14. 通用类
 	* EncryptHelper 各种加密/伪解密        StatusCode 系统中出现的错误枚举
 	* StringRegexHelper 对字符串验证的操作(正则表达式,规范)
-	* StringToolsHelper 对字符串进行扩展
+	* StringToolsHelper 对字符串进行扩展,判断对象是否是值/引用类型
 15. 文件处理
 	* FileBaseHelper:文件是否存在、查找文件中匹配的内容、文件加密解密
 	* ImageHelper:图片的各种处理(缩略图、水印等等)-秦效甫提供。
