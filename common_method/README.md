@@ -18,7 +18,7 @@
 9. 读取WebConfig
 	* 读取WebConfig中AppSettings的信息和数据库连接字符串
 10. 对象转化器
-	* 将对象转换成List集合
+	* 实体对象转换List、List转换DataTable、实体对象转换为DataTable、DataRow转换实体对象
 11. 缓存
 	* HttpRuntimeCache、Memcache、Redis缓存封装类
 12. 获取电脑信息
