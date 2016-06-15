@@ -7,22 +7,13 @@
 * ~~求职意向：ASP.NET、Java软件工程师~~	 
 
 ###2.开源博客
-1. 开源项目源代码 [开源项目源代码](https://github.com/kencery "开源项目源代码")
-2. cnblogs(博客) [cnblogs(博客)](http://www.cnblogs.com/hanyinglong "cnblogs(博客)")
-3. 开源权限系列博客 [开源权限系列博客](http://www.cnblogs.com/hanyinglong/archive/2013/03/22/2976478.html "开源权限系列博客")
-4. 全文检索系列博客 [全文检索系列博客](http://www.cnblogs.com/hanyinglong/p/5464604.html,"全文检索系列博客")
+| 标题        | 超链接           | 说明           |
+| ------------- |:-------------:|:-------------:|
+| 开源项目源代码     | [开源项目源代码](https://github.com/kencery "开源项目源代码") | 在GitHub下开源的几个项目，也是自己使用过程中学习及整理的内容 |
+| cnblogs(博客)      | [cnblogs(博客)](http://www.cnblogs.com/hanyinglong "cnblogs(博客)")      |
+| 开源权限系列博客 |  [开源权限系列博客](http://www.cnblogs.com/hanyinglong/archive/2013/03/22/2976478.html "开源权限系列博客")   |   |
+| 全文检索系列博客 |  [全文检索系列博客](http://www.cnblogs.com/hanyinglong/p/5464604.html,"全文检索系列博客")   |   |
 
-| 标题        | 连接           |
-| ------------- |:-------------:|
-| 开源项目源代码     | [开源项目源代码](https://github.com/kencery "开源项目源代码") |
-| cnblogs(博客)      | centered      |
-| zebra stripes | are neat      |
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
 
 ###3.个人技能
 1. 熟练掌握C#语言、泛型、委托、事件、文件流、反射、正则表达式等。
