@@ -25,14 +25,15 @@
 ##### (2) .NET
 * 熟练掌握.NET语法糖、ASP.NET MVC/WebForm、ADO.NET、Dapper、Linq、Entity Framework、Nhibernate、Spring.NET
 * 熟练使用Visual Studio 2008、Sql Server2005以上开发工具
-* 可以基于.NET的任何平台/技术搭建架构，对设计模式也有一定的了解。
 * 熟练使用JSON、XML编写ajax异步应用
+* 可以基于.NET的任何平台/技术搭建架构,对设计模式也有一定的了解。
 
 ##### (3) 其它
 * 熟练使用Git、SVN、TFS等版本控制软件
 * 熟练使用Linux系统常用操作命令
 * 熟练掌握Sql Server、Mysql数据库,对数据库的优化有一定的了解
-* 熟练掌握页面架构和布局,使用JavaScript和Jquery及第三方插件(EasyUI，Bootstrap...),了解CSS+DIV布局
+* 熟练使用Memcached、Redis、Elasticsearch、Email、Task服务等开源组件的使用
+* 熟练掌握页面架构和布局,使用JavaScript和Jquery及第三方插件(EasyUI，Bootstrap...),了解DIV+CSS布局
 
 ###4.工作历程
 1. 2015/03—至今
