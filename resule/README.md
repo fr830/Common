@@ -13,10 +13,16 @@
 4. 全文检索系列博客 [全文检索系列博客](http://www.cnblogs.com/hanyinglong/p/5464604.html,"全文检索系列博客")
 
 | 标题        | 连接           |
+| ------------- |:-------------:|
 | 开源项目源代码     | [开源项目源代码](https://github.com/kencery "开源项目源代码") |
 | cnblogs(博客)      | centered      |
 | zebra stripes | are neat      |
 
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
 
 ###3.个人技能
 1. 熟练掌握C#语言、泛型、委托、事件、文件流、反射、正则表达式等。
