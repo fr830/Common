@@ -1,15 +1,16 @@
 ﻿<h2 align = "center">韩迎龙个人履历</h2>
 ###1.个人信息
-1. 姓名：*韩迎龙*、性别：*男*、现居地：*北京*
+1. 姓名：*韩迎龙*、性别：*男*、现居住地：*北京*
 2. 毕业院校：长春工程学院
 3. 联系电话：**18658152123**、E-Mail：**hyl934532778@live.cn**
-4. 工作年限：2012年2月份至今
-5. ~~求职意向：ASP.NET软件工程师~~	 
+4. 工作年限：2012年2月份->至今
+5. ~~求职意向：ASP.NET、Java软件工程师~~	 
 
 ###2.开源博客
-1. cnblogs [cnblogs技术文章](http://www.cnblogs.com/hanyinglong "cnblogs技术文章")
-2. 权限开源博客  [权限开源博客](http://www.cnblogs.com/hanyinglong/archive/2013/03/22/2976478.html "权限开源博客")
-3. GitHub项目开源 [GitHub项目开源](https://github.com/kencery "GitHub项目开源")
+1. 开源项目源代码 [开源项目源代码](https://github.com/kencery "开源项目源代码")
+2. cnblogs(博客) [cnblogs(博客)](http://www.cnblogs.com/hanyinglong "cnblogs(博客)")
+3. 开源权限系列博客 [开源权限系列博客](http://www.cnblogs.com/hanyinglong/archive/2013/03/22/2976478.html "开源权限系列博客")
+4. 全文检索系列博客 [全文检索系列博客](http://www.cnblogs.com/hanyinglong/p/5464604.html,"全文检索系列博客")
 
 ###3.个人技能
 1. 熟练掌握C#语言、泛型、委托、事件、文件流、反射、正则表达式等。
