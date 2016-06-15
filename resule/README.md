@@ -6,7 +6,7 @@
 * 工作年限：2012年2月份->至今
 * ~~求职意向：ASP.NET、Java软件工程师~~	 
 
-##2.开源博客
+###2.开源博客
 | 标题        | 超链接           | 说明           |
 | ------------- |:-------------:|:-------------:|
 | 开源项目源代码     | [开源项目源代码](https://github.com/kencery "开源项目源代码") | 在GitHub下开源的几个项目，也是自己使用过程中学习及整理的源码 |
@@ -14,27 +14,25 @@
 | 开源权限系列博客 |  [开源权限系列博客](http://www.cnblogs.com/hanyinglong/archive/2013/03/22/2976478.html "开源权限系列博客")   | 开源的一个权限(用户-角色-权限-按钮)系统，从无到有的开发讲解  |
 | 全文检索系列博客 |  [全文检索系列博客](http://www.cnblogs.com/hanyinglong/p/5464604.html,"全文检索系列博客")   | 学习基于Lucene的Elasticsearch全文检索(安装-集群-Java,.NET客户端) |
 
-##3.个人技能
+###3.个人技能
 ##### (1) Java
-* 熟练掌握C#语言、泛型、委托、事件、文件流、反射、正则表达式等。
-* 熟练掌握ASP.NET MVC和WebForm开发技术，并能够熟练地使用Visual Studio开发工具。
-* 熟练掌握SQL Server数据库，对数据库的优化有一定的了解，并且熟练使用一些ORM框架(Entity FrameWork, Nhibernate)以及linq，Sping.NET，有使用以上技术开发项目的经验。
+* 熟练掌握Java语法糖、Spring MVC、Shiro、MyBatis、JDBC、Spring、Hibernate
+* 熟练使用Maven开发项目并且发布部署
+* 熟练使用Myeclipse、IDEA等开发工具
+* 熟练使用JSON、XML编写ajax异步应用
+* 可以搭建基于Spring MVC、Memcached、Redis、Mysql等技术的网站框架
 
 ##### (2) .NET
-* 熟练掌握C#语言、泛型、委托、事件、文件流、反射、正则表达式等。
-* 熟练掌握ASP.NET MVC和WebForm开发技术，并能够熟练地使用Visual Studio开发工具。
-* 熟练掌握SQL Server数据库，对数据库的优化有一定的了解，并且熟练使用一些ORM框架(Entity FrameWork, Nhibernate)以及linq，Sping.NET，有使用以上技术开发项目的经验。
+* 熟练掌握.NET语法糖、ASP.NET MVC/WebForm、ADO.NET、Dapper、Linq、Entity Framework、Nhibernate、Spring.NET
+* 熟练使用Visual Studio 2008、Sql Server2005以上开发工具
+* 可以基于.NET的任何平台/技术搭建架构，对设计模式也有一定的了解。
+* 熟练使用JSON、XML编写ajax异步应用
 
-
-
-1. 熟练掌握C#语言、泛型、委托、事件、文件流、反射、正则表达式等。
-2. 熟练掌握ASP.NET MVC和WebForm开发技术，并能够熟练地使用Visual Studio开发工具。
-3. 熟练掌握SQL Server数据库，对数据库的优化有一定的了解，并且熟练使用一些ORM框架(Entity FrameWork, Nhibernate)以及linq，Sping.NET，有使用以上技术开发项目的经验。
-4. 熟练掌握为中小型项目搭建架构(三层架构集成)，对设计模式也有一定的了解，熟练使用Ajax异步请求实现刷新局部内容
-5. 熟练掌握页面架构和布局，使用JavaScript和Jquery以及Jquery
-第三方插件(详细使用过EasyUI，Bootstrap)，了解CSS+DIV布局，HTML，Dom
-6. 熟悉ASP.NET生命周期，管道事件，状态保持机制(ViewState，Cookie,Session,Application)，页面缓存机制，全局应用程序的处理。
-7. 了解Http协议和Socket编程。
+##### (3) 其它
+* 熟练使用Git、SVN、TFS等版本控制软件
+* 熟练使用Linux系统常用操作命令
+* 熟练掌握Sql Server、Mysql数据库,对数据库的优化有一定的了解
+* 熟练掌握页面架构和布局,使用JavaScript和Jquery及第三方插件(EasyUI，Bootstrap...),了解CSS+DIV布局
 
 ###4.工作历程
 1. 2015/03—至今
