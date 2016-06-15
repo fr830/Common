@@ -15,12 +15,12 @@
 | 全文检索系列博客 |  [全文检索系列博客](http://www.cnblogs.com/hanyinglong/p/5464604.html,"全文检索系列博客")   | 学习基于Lucene的Elasticsearch全文检索(安装-集群-Java,.NET客户端) |
 
 ##3.个人技能
-##### Java
+##### (1) Java
 * 熟练掌握C#语言、泛型、委托、事件、文件流、反射、正则表达式等。
 * 熟练掌握ASP.NET MVC和WebForm开发技术，并能够熟练地使用Visual Studio开发工具。
 * 熟练掌握SQL Server数据库，对数据库的优化有一定的了解，并且熟练使用一些ORM框架(Entity FrameWork, Nhibernate)以及linq，Sping.NET，有使用以上技术开发项目的经验。
 
-##### .NET
+##### (2) .NET
 * 熟练掌握C#语言、泛型、委托、事件、文件流、反射、正则表达式等。
 * 熟练掌握ASP.NET MVC和WebForm开发技术，并能够熟练地使用Visual Studio开发工具。
 * 熟练掌握SQL Server数据库，对数据库的优化有一定的了解，并且熟练使用一些ORM框架(Entity FrameWork, Nhibernate)以及linq，Sping.NET，有使用以上技术开发项目的经验。
