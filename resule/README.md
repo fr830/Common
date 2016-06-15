@@ -9,10 +9,10 @@
 ###2.开源博客
 | 标题        | 超链接           | 说明           |
 | ------------- |:-------------:|:-------------:|
-| 开源项目源代码     | [开源项目源代码](https://github.com/kencery "开源项目源代码") | 在GitHub下开源的几个项目，也是自己使用过程中学习及整理的内容 |
-| cnblogs(博客)      | [cnblogs(博客)](http://www.cnblogs.com/hanyinglong "cnblogs(博客)")      |  个人博客地址，详细记录了自己学习的博客等 |
-| 开源权限系列博客 |  [开源权限系列博客](http://www.cnblogs.com/hanyinglong/archive/2013/03/22/2976478.html "开源权限系列博客")   | 开源的一个权限系统，从无到有的开发讲解，源码开放  |
-| 全文检索系列博客 |  [全文检索系列博客](http://www.cnblogs.com/hanyinglong/p/5464604.html,"全文检索系列博客")   | 学习基于Lucene的Elasticsearch全文检索，持续学习中ing  |
+| 开源项目源代码     | [开源项目源代码](https://github.com/kencery "开源项目源代码") | 在GitHub下开源的几个项目，也是自己使用过程中学习及整理的源码 |
+| cnblogs(博客)      | [cnblogs(博客)](http://www.cnblogs.com/hanyinglong "cnblogs(博客)")      |  个人博客地址，详细记录了自己从开始学习到现在的学习以及经验等 |
+| 开源权限系列博客 |  [开源权限系列博客](http://www.cnblogs.com/hanyinglong/archive/2013/03/22/2976478.html "开源权限系列博客")   | 开源的一个权限(用户-角色-权限-按钮)系统，从无到有的开发讲解，源码提供下载  |
+| 全文检索系列博客 |  [全文检索系列博客](http://www.cnblogs.com/hanyinglong/p/5464604.html,"全文检索系列博客")   | 学习基于Lucene的Elasticsearch全文检索(安装(Linux)-集群-Java-.NET顺序学习)持续学习中ing  |
 
 ###3.个人技能
 1. 熟练掌握C#语言、泛型、委托、事件、文件流、反射、正则表达式等。
