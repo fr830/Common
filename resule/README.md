@@ -30,7 +30,7 @@
 
 ##### (3) 其它
 * 熟练使用Git、SVN、TFS等版本控制软件
-* 熟练使用Linux系统常用操作命令
+* 熟练使用Linux系统常用操作命令以及在Linux配置Nginx等。
 * 熟练掌握Sql Server、Mysql数据库,对数据库的优化有一定的了解
 * 熟练使用Memcached、Redis、Elasticsearch、Email、Task服务等开源组件的使用
 * 熟练掌握页面架构和布局,使用JavaScript和Jquery及第三方插件(EasyUI，Bootstrap...),了解DIV+CSS布局
@@ -51,11 +51,10 @@
 * 使用技术:Spring MVC、Mysql、Shiro、Ehcache、MyBatis、Spring(redis、rest、task)开源组件、Swagger、Log4j2、Email
 
 ##### (2) 日志监控系统(http://bms.etaoshi.com/、http://mms.etaoshi.com/))
-* 项目介绍:
+* 项目介绍:该系统提供给公司内部使用，主要是监控公司所有网站的请求(占用网络带宽/Http状态/响应最慢的URL/访问最多的IP/每个城市的访问量)、订单号剩余量、订单数量、RabbitMQ、短信发送等信息。
 * 项目职责
-	* 
-	* 
-	* 
+	* 负责开发前后端信息，后端各项参数的设置等对数据库的操作
+	* 前端使用Echarts来展现各种统计的图标信息
 * 使用技术:ASP.NET MVC、Mysql、Dapper、Echarts、Redis、Elasticsearch.NET、NEST、win服务
 
 ##### (3) 时代先锋网(http://mooc.zjsdxf.cn/)
@@ -99,6 +98,6 @@
 * 使用技术:ASP.NET MVC、Nhibernate、Spring.Net、EasyUI、Jquery、Log4Net、NPOI、SQL Server
 
 ###6.待学技术
-* Linux下搭建Raneto Docs
+* Linux下搭建Raneto Docs(已搭建,细节为研究)
 * Elasticsearch持续学习中ing
 * mongodb学习
