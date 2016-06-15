@@ -30,7 +30,7 @@
 
 ##### (3) 其它
 * 熟练使用Git、SVN、TFS等版本控制软件
-* 熟练使用Linux系统常用操作命令以及在Linux配置Nginx等。
+* 熟练使用Linux系统常用操作命令以及在Linux配置Nginx等
 * 熟练掌握Sql Server、Mysql数据库,对数据库的优化有一定的了解
 * 熟练使用Memcached、Redis、Elasticsearch、Email、Task服务等开源组件的使用
 * 熟练掌握页面架构和布局,使用JavaScript和Jquery及第三方插件(EasyUI，Bootstrap...),了解DIV+CSS布局
@@ -97,7 +97,7 @@
 	* 使用NPOI实现将数据导出Excel的功能。
 * 使用技术:ASP.NET MVC、Nhibernate、Spring.Net、EasyUI、Jquery、Log4Net、NPOI、SQL Server
 
-###6.待学技术
+###6.探究中
 * Linux下搭建Raneto Docs(已搭建,细节为研究)
 * Elasticsearch持续学习中ing
 * mongodb学习
