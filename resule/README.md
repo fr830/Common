@@ -32,7 +32,7 @@
 * 熟练使用Git、SVN、TFS等版本控制软件
 * 熟练使用Linux系统常用操作命令以及在Linux配置Nginx等
 * 熟练掌握Sql Server、Mysql数据库,对数据库的优化有一定的了解
-* 熟练使用Memcached、Redis、Elasticsearch、Email、Task服务等开源组件的使用
+* 熟练使用Memcached、Redis、Nginx、Elasticsearch、Email、Task服务等开源组件的使用
 * 熟练掌握页面架构和布局,使用JavaScript和Jquery及第三方插件(EasyUI，Bootstrap...),了解DIV+CSS布局
 
 ###4.工作历程
