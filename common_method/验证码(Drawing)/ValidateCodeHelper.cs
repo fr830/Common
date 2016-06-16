@@ -14,12 +14,12 @@ using System.Globalization;
 using System.IO;
 
 namespace KenceryCommonMethod
-{
+{	
     /// <summary>
     ///  var validateCode = new ValidateCode();
-    ///  string code = validateCode.CreateValidateCode(4); 生成验证码的长度
+    ///  string code = validateCode.CreateNumValidateCodeInfo(4); 生成验证码的长度
     ///  Session["ValidateCode"] = code;   讲验证码赋值给Session
-    ///  byte[] bytes = validateCode.CreateGraphic(code);  创建验证码的图片
+    ///  byte[] bytes = validateCode.CreateGraphicInfo(code);  创建验证码的图片
     /// -----------------------------------------------------------------------------
     /// 验证码辅助类
     /// <auther>
