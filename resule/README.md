@@ -101,3 +101,5 @@
 * Linux下搭建Raneto Docs(已搭建,细节为研究)
 * Elasticsearch持续学习中ing
 * mongodb学习
+* Nginx简单研究学习中
+* 思维导图学习画流程图
