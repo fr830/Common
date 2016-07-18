@@ -21,8 +21,16 @@ Thumbs.db
 [Dd]ebug*/
 *.lib
 *.sbr
+*.swp
+*.xls
 obj/
 [Rr]elease*/
 _ReSharper*/
 [Tt]est[Rr]esult*
-*.suo
+*/App_Data*
+[Ll]ogs/
+[Ll]og/
+target/
+packages/
+.idea/
+*.iml

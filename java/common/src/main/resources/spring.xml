@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/mvc
+       http://www.springframework.org/schema/mvc/spring-mvc.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+       <!--开启自动注入和注解-->
+       <context:annotation-config />
+       <mvc:annotation-driven />
+
+       <!-- 静态资源(js,image,css)等的访问-->
+       <mvc:default-servlet-handler />
+
+       <!--激活自动代理功能-->
+       <aop:aspectj-autoproxy ></aop:aspectj-autoproxy>
+
+       <!-- 读取系统属性 -->
+       <bean id="placeholderConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+              <property name="fileEncoding" value="UTF-8"/>
+              <property name="ignoreResourceNotFound" value="true"/>
+              <property name="ignoreUnresolvablePlaceholders" value="true"/>
+              <property name="order" value="0"/>
+              <property name="locations">
+                     <list>
+                            <value>classpath*:config/config.properties</value>
+                     </list>
+              </property>
+       </bean>
+
+       <!--ViewResolver 视图解析器:用于支持Servlet、JSP视图解析-->
+       <bean id="jspViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+              <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
+              <property name="prefix" value="/WEB-INF/pages/"/>
+              <property name="suffix" value=".jsp"/>
+       </bean>
+
+       <!--指明controller所在包，并扫描其中的注解-->
+       <context:component-scan base-package="com.lyzj.student" />
+
+</beans>
