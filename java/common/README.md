@@ -13,6 +13,10 @@
 * 源码地址：https://github.com/swagger-api/swagger-ui
 1. 添加包文件(pom.xml文件下含有说明)
 2. 创建spring mvc项目,创建几个控制器(如Home、Login)
-3. 创建SwaggerConfig文件，并在添加spring.xml文件
+3. 创建SwaggerConfig文件、config.properties以及spring.xml文件
 4. 将源码下载下来，将dist下的文件copy到webapp下的apidoc中
 5. 启动项目，测试可以访问Swagger是否成功。
+
+### 3.Redis使用说明
+1.添加包文件(pom.xml文件下含有说明)
+2.添加配置文件redis.properties和spring-redis.xml文件
