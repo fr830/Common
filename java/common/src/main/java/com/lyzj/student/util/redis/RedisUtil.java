@@ -1,5 +1,7 @@
 package com.lyzj.student.util.redis;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisCallback;
 import org.springframework.data.redis.core.RedisTemplate;
@@ -15,6 +17,11 @@ import java.util.concurrent.TimeUnit;
  */
 @Component
 public class RedisUtil {
+
+    /**
+     * 记录日志
+     */
+    private static Logger logger = LoggerFactory.getLogger(RedisUtil.class);
 
     private static RedisUtil instance;
 
@@ -48,7 +55,7 @@ public class RedisUtil {
         try {
             redisTemplate.opsForValue().set(key, value);
         } catch (Exception e) {
-            //写入日志
+            logger.error(String.format("set方法出错[key:%s,value:%s]", key, value), e);
         }
     }
 
@@ -63,7 +70,7 @@ public class RedisUtil {
         try {
             redisTemplate.opsForValue().set(key, value, expireTime, TimeUnit.MINUTES);
         } catch (Exception e) {
-            //写入日志
+            logger.error(String.format("set方法出错[key:%s,value:%s]", key, value), e);
         }
     }
 
@@ -89,7 +96,7 @@ public class RedisUtil {
         try {
             return redisTemplate.opsForList().rightPushAll(key, list);
         } catch (Exception e) {
-            //写入日志
+            logger.error(String.format("存入列表出错(rightPushAll)--%s", key), e);
             return Long.valueOf(0);
         }
     }
@@ -108,7 +115,7 @@ public class RedisUtil {
             redisTemplate.expire(key, expireTime, TimeUnit.MINUTES);
             return result;
         } catch (Exception e) {
-            //写入日志
+            logger.error(String.format("存入列表出错(rightPushAll)--%s", key), e);
             return Long.valueOf(0);
         }
     }
@@ -137,7 +144,7 @@ public class RedisUtil {
                 setExpire(key, expireTime, TimeUnit.MINUTES);
             }
         } catch (Exception e) {
-            //写入日志
+            logger.error(String.format("设置哈希错误(putAll)--%s", key), e);
         }
     }
 
@@ -150,7 +157,7 @@ public class RedisUtil {
         try {
             redisTemplate.delete(key);
         } catch (Exception e) {
-            //写入日志
+            logger.error(String.format("删除键出错,key:%s", key), e);
         }
     }
 
@@ -170,7 +177,7 @@ public class RedisUtil {
                 return result;
             });
         } catch (Exception e) {
-            //写入日志
+            logger.error("删除多个Key出错", e);
             return -1;
         }
     }
@@ -185,7 +192,7 @@ public class RedisUtil {
         try {
             return (boolean) redisTemplate.execute((RedisCallback) connection -> connection.exists(key.getBytes()));
         } catch (Exception e) {
-            //写入日志
+            logger.error("判断键是否存在出错", e);
             return false;
         }
     }
@@ -201,7 +208,7 @@ public class RedisUtil {
         try {
             return redisTemplate.opsForHash().hasKey(key, hashKey);
         } catch (Exception e) {
-            //写入日志
+            logger.error("获取Hash值错误", e);
             return false;
         }
     }
@@ -216,7 +223,7 @@ public class RedisUtil {
         try {
             return redisTemplate.opsForValue().get(key);
         } catch (Exception e) {
-            //写入日志
+            logger.error(String.format("获取键值出错,key:%s", key), e);
             return null;
         }
     }
@@ -231,7 +238,7 @@ public class RedisUtil {
         try {
             return redisTemplate.opsForList().range(key, 0, -1);
         } catch (Exception e) {
-            //写入日志
+            logger.error("取列表出错(range)", e);
             return null;
         }
     }
@@ -247,7 +254,7 @@ public class RedisUtil {
         try {
             return redisTemplate.opsForHash().get(key, hashKey);
         } catch (Exception e) {
-            //写入日志
+            logger.error("获取Hash值错误", e);
             return null;
         }
     }

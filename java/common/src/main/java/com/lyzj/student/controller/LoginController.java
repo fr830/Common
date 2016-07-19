@@ -33,7 +33,7 @@ public class LoginController {
     public String edit(@RequestParam(value = "", name = "署名", required = true) String signature,
                        @RequestParam(value = "", name = "时间戳", required = false) String timestamp,
                        @RequestBody(required = false) String xmlStr) {
-        redisUtil.set(RedisCacheKeys.testKey, "test", 1);
+        redisUtil.set(RedisCacheKeys.testKey, "test");
         Object o = redisUtil.getValue(RedisCacheKeys.testKey);
         return o.toString();
     }
