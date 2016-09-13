@@ -148,6 +148,11 @@
             <artifactId>mybatis-generator-core</artifactId>
             <version>${mybatis-generator.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.microsoft.sqlserver</groupId>
+            <artifactId>sqljdbc4</artifactId>
+            <version>4.0.2206.100</version>
+        </dependency>
 
         <!--实现读取接口Swagger的实现的引用包-->
         <dependency>
@@ -251,8 +256,12 @@
                         <artifactId>mysql-connector-java</artifactId>
                         <version>${mysql.version}</version>
                     </dependency>
+                    <dependency>
+                        <groupId>com.microsoft.sqlserver</groupId>
+                        <artifactId>sqljdbc4</artifactId>
+                        <version>4.0.2206.100</version>
+                    </dependency>
                 </dependencies>
-
                 <!-- 自动生成 -->
                 <executions>
                     <execution>
