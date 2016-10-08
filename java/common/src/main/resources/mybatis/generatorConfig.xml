@@ -4,8 +4,7 @@
         "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
 <generatorConfiguration>
 
-       <context id="mysqlTables" targetRuntime="MyBatis3">
-
+       <context id="mysqlTables" targetRuntime="MyBatis3" defaultModelType="flat">
               <commentGenerator>
                      <!--设置为true，则默认不添加注释，否则添加注释-->
                      <property name="suppressAllComments" value="true"/>
@@ -16,6 +15,7 @@
                               userId="root" password="dev_master"/>-->
               <jdbcConnection driverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver" connectionURL="jdbc:sqlserver://59.151.43.221:1433;DatabaseName=FoodkingdomCN_20160405"
                               userId="etaoshi_master" password="Tr1iV8Q7sY005"/>
+
               <!-- 指定生成的类型为java类型，避免数据库中number等类型字段 -->
               <javaTypeResolver>
                      <property name="forceBigDecimals" value="false"/>
@@ -25,6 +25,7 @@
               <javaModelGenerator targetPackage="com.etao.communityactivity.entity" targetProject="MAVEN">
                      <property name="enableSubPackages" value="true"/>
                      <property name="trimStrings" value="true"/>
+
               </javaModelGenerator>
 
 
@@ -41,35 +42,14 @@
               </javaClientGenerator>
 
               <!--生成表结构(可多个信息)-->
-              <table tableName="CommunityInfo" domainObjectName="CommunityInfo" enableCountByExample="false" enableUpdateByExample="false"
-                     enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false" />
-
-              <table tableName="CommunityPromotionPayment" domainObjectName="CommunityPromotionPayment" enableCountByExample="false"
-                     enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false" />
-
-              <table tableName="CommunityPromotion" domainObjectName="CommunityPromotion" enableCountByExample="false" enableUpdateByExample="false"
-                     enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false" />
-
-              <table tableName="CommunityPromotionCategory" domainObjectName="CommunityPromotionCategory" enableCountByExample="false" enableUpdateByExample="false"
-                     enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false" />
-
-              <table tableName="CommunityMemberRelation" domainObjectName="CommunityMemberRelation" enableCountByExample="false" enableUpdateByExample="false"
-                     enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false" />
-
-              <table tableName="CommunityPromotionCoupon" domainObjectName="CommunityPromotionCoupon" enableCountByExample="false" enableUpdateByExample="false"
-                     enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false" />
-
-              <table tableName="CommunityPromotionExtend" domainObjectName="CommunityPromotionExtend" enableCountByExample="false" enableUpdateByExample="false"
-                     enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false" />
 
               <table tableName="CommunityPromotionOrder" domainObjectName="CommunityPromotionOrder" enableCountByExample="false" enableUpdateByExample="false"
-                     enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false" />
-
-              <table tableName="GrouponBaseData" domainObjectName="GrouponBaseData" enableCountByExample="false" enableUpdateByExample="false"
-                     enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false" />
-
-              <table tableName="GrouponDataCatagory" domainObjectName="GrouponDataCatagory" enableCountByExample="false" enableUpdateByExample="false"
-                     enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false" />
-
+                     enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false" >
+                     <!--<property name="useActualColumnNames" value="true" />-->
+              </table>
+              <table tableName="CommunityPromotionPayment" domainObjectName="CommunityPromotionPayment" enableCountByExample="false" enableUpdateByExample="false"
+                               enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false" >
+              <!--<property name="useActualColumnNames" value="true" />-->
+              </table>
        </context>
 </generatorConfiguration>
