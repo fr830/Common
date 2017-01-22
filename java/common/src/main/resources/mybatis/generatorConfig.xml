@@ -11,8 +11,8 @@
               </commentGenerator>
 
               <!--数据库连接字符串，需要生成的数据库的连接信息-->
-              <!--<jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://10.8.8.201:3306/webchart_crm"
-                              userId="root" password="dev_master"/>-->
+           <!--   <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://10.8.8.53:3306/qb"
+                              userId="root" password="P2ssw0rd"/>-->
               <jdbcConnection driverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver" connectionURL="jdbc:sqlserver://59.151.43.221:1433;DatabaseName=FoodkingdomCN_20160405"
                               userId="etaoshi_master" password="Tr1iV8Q7sY005"/>
 
@@ -28,7 +28,6 @@
 
               </javaModelGenerator>
 
-
               <!--对应的xml mapper文件  -->
               <sqlMapGenerator targetPackage="com.etao.communityactivity.mapper" targetProject="MAVEN">
                      <property name="enableSubPackages" value="true"/>
@@ -42,14 +41,9 @@
               </javaClientGenerator>
 
               <!--生成表结构(可多个信息)-->
-
-              <table tableName="CommunityPromotionOrder" domainObjectName="CommunityPromotionOrder" enableCountByExample="false" enableUpdateByExample="false"
+              <table tableName="CallMealInfo" domainObjectName="CallMealInfo" enableCountByExample="false" enableUpdateByExample="false"
                      enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false" >
-                     <!--<property name="useActualColumnNames" value="true" />-->
-              </table>
-              <table tableName="CommunityPromotionPayment" domainObjectName="CommunityPromotionPayment" enableCountByExample="false" enableUpdateByExample="false"
-                               enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false" >
-              <!--<property name="useActualColumnNames" value="true" />-->
+                     <property name="useActualColumnNames" value="true" />
               </table>
        </context>
 </generatorConfiguration>
