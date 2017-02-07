@@ -114,7 +114,7 @@
 	* 使用NPOI实现将数据导出Excel的功能。
 * 使用技术:ASP.NET MVC、Nhibernate、Spring.Net、EasyUI、Jquery、Log4Net、NPOI、SQL Server
 
-###10.探究中
+###6.探究中
 * Spring Boot微服务
 * Docker研究
 * Elasticsearch持续学习中ing
