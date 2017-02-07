@@ -20,10 +20,12 @@
 * 熟练掌握Java语法糖、Spring MVC、Shiro、MyBatis、JDBC、Spring、Hibernate、Spring Boot
 * 熟练使用Myeclipse、IDEA等开发工具并且使用Maven开发项目及发布部署到Tomcat
 * 可以搭建基于Spring MVC/Spring Boot、Memcached、Redis、Mysql/SqlServer等技术的网站框架
+
 ##### (2) .NET
 * 熟练掌握.NET语法糖、ASP.NET MVC/WebForm、ADO.NET、Dapper、Linq、Entity Framework、Nhibernate、Spring.NET
 * 熟练使用各种开发工具以及辅助开发的插件
 * 可以基于.NET的任何平台/技术搭建架构,对设计模式也有一定的了解。
+
 ##### (3) 其它
 * 具有面向对象思想，扎实的编程功底以及良好的编码习惯
 * 熟练使用Git、SVN、TFS等版本控制软件
@@ -37,16 +39,17 @@
 ###4.工作历程
 | 工作时间          | 公司名称  | 在职职位      | 完成项目       |
 | ----------------- |:-------------:|:-------------:|:-------------:|
-| 2015/03-至今      | 北京某O2O公司 | Java/.NET软件工程师 | boss收银系统、微信外卖网、日志监控系统、H5/WeChat外卖网、MongoDB打印机日志查看系统、商户后台系统 |
-| 2013/02-2015/03   | 北京某教育集团 | .NET软件工程师/项目负责人 | 时代先锋网、教材信息系统V1.0、文档库管理系统 |
+| 2015/03-至今      | 北京易淘星空网络科技有限责任公司 | Java/.NET软件工程师 | boss收银系统、微信外卖网、日志监控系统、H5/WeChat外卖网、MongoDB打印机日志查看系统、商户后台系统 |
+| 2013/02-2015/03   | 北京奥鹏教育集团 | .NET软件工程师/项目负责人 | 时代先锋网、教材信息系统V1.0、文档库管理系统 |
 | 2012/02-2012/12   | 长春东高集团 | .NET软件工程师 | MVC权限管理信息系统(KJ240)、人员定位管理系统(KJ241) |
 
 ###5.项目简述
 ##### (1) Boss收银系统(http://boss.etao.cn/)
-* 项目介绍:该系统提供公司各个终端、销售人员、开发人员、财务等使用的基础系统，各个终端订单的管理，销售人员对各个终端的销售，开发人员对终端产品的推送以及财务的对账等功能(管理后台)
+* 项目介绍:该系统提供公司各个终端、销售人员、开发人员、财务等使用的基础系统，各个终端订单的管理，销售人员对各个终端的管理，开发人员对终端产品的推送以及财务的对账等功能(管理后台)
 * 项目职责
 	* 主要使用Shiro+MyBatis+Redis开发用户权限模块，使系统能够对按钮进行权限管理
-	* 门店、订单管理,营收统计,佣金配置等功能调用API的实现
+	* 门店、订单管理,营收统计,佣金配置等基础功能的实现
+	* 门店桌台二维码的实现
 * 使用技术:Spring MVC、Mysql、Shiro、Ehcache、MyBatis、Spring(redis、rest、task)开源组件、Swagger、Log4j2、Email
 
 ##### (2) 餐厅商户后台
@@ -54,14 +57,15 @@
 * 项目职责
 	* 主要设计权限模块，对权限模块的控制级别非常高，含有层级的管理权限，权限对外开放不需要开发人员固定设置。
 	* 其它所实现的数据库增删改查各个业务的API，导出，缓存等实现
+	* 其它所有业务的基本操作等实现
 * 使用技术:NodeJS、SqlServer、express、log4js、node-xlsx、Redis、Swagger等
 
 ##### (3) 初心商城(http://www.chuxinm.com)
 * 项目介绍:该系统为个人组织团队业余时间所开发的一个商城系统，系统使用asp.net core语言所开发,部署在linux服务器上。
 * 项目职责
 	* 设计业务和数据库以及权限模块，搭建项目框架、组织团队，部署服务器，源码放在git下。
-	* 数据库的增删改查以及使用Jquery套前台的页面实现
-* 使用技术:ASP.NET Coer、MySql、AutoFac、Metronic后端框架、BootStrap、定时任务TimeJob、wangeditor、ZTree、Redis、七牛云、UnitOfWork、MailKit邮件发送
+	* 数据库的增删改查以及使用Jquery套前台页面的实现
+* 使用技术:ASP.NET Coer、MySql、AutoFac、Metronic后端框架、BootStrap、定时任务TimeJob、wangeditor、ZTree、Redis、七牛云、UnitOfWork、MailKit邮件发送、Logging日志打印
 
 ##### (4) 日志监控系统(http://bms.etaoshi.com/  http://mms.etaoshi.com/))
 * 项目介绍:该系统提供给公司内部使用，主要是监控公司所有网站的请求(占用网络带宽/Http状态/响应最慢的URL/访问最多的IP/每个城市的访问量)、订单号剩余量、订单数量、RabbitMQ、短信发送等信息。
@@ -111,6 +115,7 @@
 * 使用技术:ASP.NET MVC、Nhibernate、Spring.Net、EasyUI、Jquery、Log4Net、NPOI、SQL Server
 
 ###10.探究中
+* Spring Boot微服务
+* Docker研究
 * Elasticsearch持续学习中ing
 * MySql书籍阅读
-* Docker研究
