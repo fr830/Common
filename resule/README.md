@@ -4,35 +4,33 @@
 * 毕业院校：长春工程学院
 * 联系电话：**18658152123**、E-Mail：**hyl934532778@live.cn**
 * 工作时间：2012年2月份->至今、工作年限：5年
-* GitHub:https://github.com/kencery 、博客：http://www.cnblogs.com/hanyinglong 
-* 求职意向：Java软件工程师
+* 博客：http://www.cnblogs.com/hanyinglong 、GitHub：https://github.com/kencery
+* 求职意向：.NET/Java软件工程师
 
-###2.开源博客/项目
+###2.开源项目/博客
 | 标题        | 超链接           | 说明           |
 | ------------- |:-------------:|:-------------:|
-| 初心源商城 |  [初心源商城](http://www.chuxinm.com "初心源商城")   | 初心源商城是我和几个朋友共同开发的一套源码买卖商城,使用.net core开发,部署在linux系统下 |
-| 开源权限系列博客 |  [开源权限系列博客](http://www.cnblogs.com/hanyinglong/archive/2013/03/22/2976478.html "开源权限系列博客")   | 开源的一个权限(用户-角色-权限-按钮)系统，从无到有的开发讲解  |
-| 全文检索系列博客 |  [全文检索系列博客](http://www.cnblogs.com/hanyinglong/p/5464604.html,"全文检索系列博客")   | 学习基于Lucene的Elasticsearch全文检索(安装-集群-Java,.NET客户端) |
-
+| 初心源商城 |  [初心源商城](http://www.chuxinm.com "初心源商城")   | 几个朋友利用业余时间共同开发的一套源码买卖商城,使用.net core开发,部署在linux系统下 |
+| 开源权限系列博客 |  [开源权限系列博客](http://www.cnblogs.com/hanyinglong/archive/2013/03/22/2976478.html "开源权限系列博客")   | 自己编写的一个开源的权限系统(用户-组-角色-权限-按钮)，从无到有的书写博客分享 |
+| 全文检索系列博客 |  [全文检索系列博客](http://www.cnblogs.com/hanyinglong/p/5464604.html,"全文检索系列博客")   | 学习基于Lucene的Elasticsearch全文检索(安装-集群-Java,.NET客户端)并书写博客分享|
 
 ###3.个人技能
-##### (1) Java
-* 熟练掌握Java语法糖、Spring MVC、Shiro、MyBatis、JDBC、Spring、Hibernate、Spring Boot
-* 熟练使用Myeclipse、IDEA等开发工具并且使用Maven开发项目及发布部署到Tomcat
-* 可以搭建基于Spring MVC/Spring Boot、Memcached、Redis、Mysql/SqlServer等技术的网站框架
-
-##### (2) .NET
-* 熟练掌握.NET语法糖、ASP.NET MVC/WebForm、ADO.NET、Dapper、Linq、Entity Framework、Nhibernate、Spring.NET
+##### (1) .NET
+* 熟练掌握C#语法糖、ASP.NET MVC/WebForm/.Net Core、ADO.NET、Dapper、Linq、Entity Framework、Nhibernate、Spring.NET等
 * 熟练使用各种开发工具以及辅助开发的插件
 * 可以基于.NET的任何平台/技术搭建架构,对设计模式也有一定的了解。
 
+##### (2) Java
+* 熟练掌握Java语法糖、Spring MVC、Shiro、MyBatis、JDBC、Spring、Hibernate、Spring Boot等
+* 熟练使用Myeclipse、IDEA等开发工具并且使用Maven开发项目及发布部署到服务器
+* 可以搭建基于Spring MVC/Spring Boot、Memcached、Redis、Mysql/SqlServer等技术的网站框架
+
 ##### (3) 其它
 * 具有面向对象思想，扎实的编程功底以及良好的编码习惯
-* 熟练使用Git、SVN、TFS等版本控制软件
-* 熟练使用Linux系统常用操作命令以及在Linux配置Nginx等
+* 熟练使用Git、SVN、TFS等版本控制软件、熟练使用Linux系统常用操作命令
 * 熟练掌握Sql Server、Mysql、MongoDB数据库,对数据库的优化有一定的了解
-* 熟练使用Memcached、Redis、Nginx、Elasticsearch、Email、Task服务等开源组件的使用
-* 可以搭建方便开发的开源组件：Raneto Docs、Swagger
+* 熟练使用Memcached、Redis、Nginx、Elasticsearch、Email、Task服务等组件的使用
+* 可以搭建方便开发的开源工具：Raneto Docs、Swagger
 * 熟练掌握页面架构和布局,使用JavaScript和Jquery及第三方插件(EasyUI，Bootstrap...),了解DIV+CSS布局
 * 熟练使用nodejs开发后台接口(有开发经验)
 
@@ -60,7 +58,7 @@
 	* 其它所有业务的基本操作等实现
 * 使用技术:NodeJS、SqlServer、express、log4js、node-xlsx、Redis、Swagger等
 
-##### (3) 初心商城(http://www.chuxinm.com)
+##### (3) 初心源商城(http://www.chuxinm.com)
 * 项目介绍:该系统为个人组织团队业余时间所开发的一个商城系统，系统使用asp.net core语言所开发,部署在linux服务器上。
 * 项目职责
 	* 设计业务和数据库以及权限模块，搭建项目框架、组织团队，部署服务器，源码放在git下。
