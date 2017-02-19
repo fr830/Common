@@ -51,7 +51,7 @@
 * 使用技术:Spring MVC、Mysql、Shiro、Ehcache、MyBatis、Spring(redis、rest、task)开源组件、Swagger、Log4j2、Email
 
 ##### (2) 餐厅商户后台
-* 项目介绍:该系统为公司内部和餐厅所使用的一体化项目，面向于所有人可以使用。
+* 项目介绍:该系统为公司内部和餐厅使用的一体化项目，面向于所有人可以使用。
 * 项目职责
 	* 主要设计权限模块，对权限模块的控制级别非常高，含有层级的管理权限，权限对外开放不需要开发人员固定设置。
 	* 其它所实现的数据库增删改查各个业务的API，导出，缓存等实现
@@ -59,9 +59,9 @@
 * 使用技术:NodeJS、SqlServer、express、log4js、node-xlsx、Redis、Swagger等
 
 ##### (3) 初心源商城(http://www.chuxinm.com)
-* 项目介绍:该系统为个人组织团队业余时间所开发的一个商城系统，系统使用asp.net core语言所开发,部署在linux服务器上。
+* 项目介绍:该系统为个人组织团队在业余时间开发的一个商城系统，系统基于.net core进行开发,部署在linux服务器上。
 * 项目职责
-	* 设计业务和数据库以及权限模块，搭建项目框架、组织团队，部署服务器，源码放在git下。
+	* 设计业务和数据库以及权限模块，搭建项目框架、组织团队，部署服务器，使用git进行项目版本管理(源码放在git下)。
 	* 数据库的增删改查以及使用Jquery套前台页面的实现
 * 使用技术:ASP.NET Coer、MySql、AutoFac、Metronic后端框架、BootStrap、定时任务TimeJob、wangeditor、ZTree、Redis、七牛云、UnitOfWork、MailKit邮件发送、Logging日志打印
 
@@ -112,7 +112,11 @@
 	* 使用NPOI实现将数据导出Excel的功能。
 * 使用技术:ASP.NET MVC、Nhibernate、Spring.Net、EasyUI、Jquery、Log4Net、NPOI、SQL Server
 
-###6.探究中
+###6.自我评价
+* 本人诚实谦虚，工作勤奋，认真负责，能吃苦耐劳，尽职尽责，有较强的团队精神和学习能力
+* 对工作适应力非常强，能很快融入到到公司工作中
+
+###7.正在探究中
 * Spring Boot微服务
 * Docker研究
 * Elasticsearch持续学习中ing
