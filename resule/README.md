@@ -32,7 +32,7 @@
 * 熟练使用Memcached、Redis、Nginx、Elasticsearch、Email、Task服务等组件的使用
 * 熟练掌握页面架构和布局,使用JavaScript和Jquery及第三方插件(EasyUI，Bootstrap...),了解DIV+CSS布局
 * 熟练使用nodejs开发后台接口(有开发经验)
-* 可以搭建方便开发的开源工具：Raneto Docs、Swagger
+* 可以搭建方便开发的开源工具：Raneto Docs、Swagger等
 
 ###4.工作历程
 | 工作时间          | 公司名称  | 在职职位      | 完成项目       |
@@ -55,7 +55,7 @@
 ##### (2) Boss收银系统(http://boss.etao.cn/)
 * 项目介绍:该系统提供公司各个终端、销售人员、开发人员、财务等使用的基础系统，各个终端订单的管理，销售人员对各个终端的管理，开发人员对终端产品的推送以及财务的对账等功能(管理后台)
 * 项目职责
-	* 使用Spring MVC+Shiro+MyBatis+Redis开发用户权限模块，使系统能够对按钮进行权限级管理
+	* 使用Spring MVC+Shiro+MyBatis+Redis开发用户权限模块，使系统能够对按钮进行权限级控制
 	* 封装生成二维码的实现类，使其能够定制化门店桌台二维码的实现
 	* 门店、订单管理,营收统计,佣金配置等基础功能的实现
 	* 对订单和人员消费的各种统计以及报表的导出等Excel的封装
@@ -65,16 +65,19 @@
 * 项目介绍:该系统为公司内部和餐厅使用的一体化项目，面向于所有人可以使用。
 * 项目职责
 	* 主要设计权限模块，对权限模块的控制级别非常高，含有层级的管理权限，权限对外开放不需要开发人员固定设置。
-	* 其它所实现的数据库增删改查各个业务的API，导出，缓存等实现
-	* 其它所有业务的基本操作等实现
-* 使用技术:NodeJS、SqlServer、express、log4js、node-xlsx、Redis、Swagger等
+	* 封装Nodejs对Excel的导出以及对Redis使用类的封装及其它公共类
+	* 使用NodeJS操作mongoDB进行添加和查询的实现接口API
+	* 实现部分功能的数据库增删改查各个业务的API
+* 使用技术:NodeJS、SqlServer、express、log4js、node-xlsx、Redis、MongoDB、Swagger等
 
 ##### (4) 日志监控系统(http://bms.etaoshi.com/  http://mms.etaoshi.com/))
 * 项目介绍:该系统提供给公司内部使用，主要是监控公司所有网站的请求(占用网络带宽/Http状态/响应最慢的URL/访问最多的IP/每个城市的访问量)、订单号剩余量、订单数量、RabbitMQ、短信发送等信息。
 * 项目职责
-	* 负责开发前后端信息，后端各项参数的设置等对数据库的操作
-	* 前端使用Echarts来展现各种统计的图标信息
-* 使用技术:ASP.NET MVC、Mysql、Dapper、Echarts、Redis、Elasticsearch.NET、NEST、win服务
+	* 负责开发后端管理平台配置，可以实现配置化监控，
+	* 部署ElasticSearch服务端，使用Nest.NET操作ElasticSearch进行汇总查询
+	* 使用Redis对数据进行缓存
+	* 使用Echarts来展现各种统计的图表信息
+* 使用技术:ASP.NET MVC、Mysql、Dapper、Echarts、Redis、Elasticsearch、NEST.NET、win服务
 
 ##### (5) 时代先锋网(http://mooc.zjsdxf.cn/)
 * 项目介绍:该系统提供了公务员学习的平台,在此平台上可以学习课程(视频/文档/作业/考试/问卷调差),教师可以对学生的学习情况及作业、考试进行打分，管理员可以对教师及课程进行整体的管理和审核
