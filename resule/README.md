@@ -16,7 +16,7 @@
 
 ###3.个人技能
 ##### (1) .NET
-* 熟练掌握C#语法糖、ASP.NET MVC/WebForm/.Net Core、ADO.NET、Dapper、Linq、Entity Framework、Nhibernate、Spring.NET等
+* 熟练掌握C#语法糖、ASP.NET MVC/WebForm/ASP.Net Core、ADO.NET、Dapper、Linq、Entity Framework、Nhibernate、Spring.NET等
 * 熟练使用各种开发工具以及辅助开发的插件
 * 可以基于.NET的任何平台/技术搭建架构,对设计模式也有一定的了解。
 
@@ -45,12 +45,12 @@
 ##### (1) 初心源商城(http://www.chuxinm.com)
 * 项目介绍:该系统为个人组织团队在业余时间开发的一个商城系统(B2C)，系统基于.net core进行开发,部署在linux服务器上。
 * 项目职责
-	* 担任项目负责人，团队人员：5人
+	* 担任项目负责人，团队人员：6人
 	* 考虑业务需求和数据库设计以及组织团队、搭建.net core项目框架、源码管理(源码放在开源中国下)和部署服务器
 	* 设计权限管理(权限分为好多层的设计思路)、使用Redis对用户权限进行缓存
 	* 将系统图片使用七牛云存放、定时任务使用TimeJob等来实现
 	* 搭建架构并且实现功能性的数据库增删改查以及后台框架页面管理和前台页面的展示
-* 使用技术:.NET Coer、MySql、AutoFac、Metronic后端框架、BootStrap、定时任务TimeJob、Wangeditor、ZTree、Redis、七牛云、UnitOfWork、MailKit邮件发送、Logging日志打印
+* 使用技术:ASP.NET Core、MySql、AutoFac、Metronic后端框架、BootStrap、定时任务TimeJob、Wangeditor、ZTree、Redis、七牛云、UnitOfWork、MailKit邮件发送、Logging日志打印
 
 ##### (2) Boss收银系统(http://boss.etao.cn/)
 * 项目介绍:该系统提供公司各个终端、销售人员、开发人员、财务等使用的基础系统，各个终端订单的管理，销售人员对各个终端的管理，开发人员对终端产品的推送以及财务的对账等功能(管理后台)
