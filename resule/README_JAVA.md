@@ -15,17 +15,16 @@
 | 初心源商城 |  [初心源商城](http://www.chuxinm.com "初心源商城")   | 几个朋友利用业余时间共同开发的一套源码买卖商城,使用.net core开发,部署在linux系统下 |
 
 ###3.个人技能
-##### (1) Java
 * 熟练掌握Java语法糖、Spring MVC、Shiro、MyBatis、JDBC、Spring、Hibernate、Spring Boot等
 * 熟练使用Myeclipse、IDEA等开发工具并且使用Maven开发项目及发布部署到服务器
 * 可以搭建基于Spring MVC/Spring Boot、Memcached、Redis、Mysql/SqlServer等技术的网站框架
 * 具有面向对象思想，扎实的编程功底以及良好的编码习惯
 * 熟练使用Git、SVN、TFS等版本控制软件、熟练使用Linux系统常用操作命令
 * 熟练掌握Sql Server、Mysql、MongoDB数据库,对数据库的优化有一定的了解
-* 熟练使用Redis、Memcached、Nginx、Elasticsearch、Email、Task服务等组件的使用
+* 熟练运用Redis、Memcached、Nginx、Elasticsearch、Email、Task服务、RabbitMQ等组件的使用
 * 熟练掌握页面架构和布局,使用JavaScript和Jquery及第三方插件(EasyUI，Bootstrap...),了解DIV+CSS布局
-* 熟练使用nodejs开发后台接口(有开发经验)
 * 可以搭建方便开发的开源工具：Raneto Docs、Swagger等
+* 熟练使用nodejs开发后台接口(有开发经验)
 
 ###4.工作经历
 | 工作时间          | 公司名称  | 在职职位      | 完成项目       |
@@ -82,15 +81,7 @@
 	* 编写文档管理员的操作说明和整个系统的测试用例
 * 使用技术:ASP.NET MVC、ADO.NET、Jquery插件、Win服务。
 
-##### (6) 文档库管理系统
-* 项目介绍:该系统提供给医院销售人员在平板上销售药品的后台文档库信息的管理，可以管理所有药品的文档信息和文档配置以及视频信息。
-* 项目职责
-	* 负责文档库信息节点的上传配置，完全使用JS搭建前台显示页面。
-	* 使用ASP.NET MVC和Entity FrameWork搭建项目，封装操作数据库的方法，封装常用的类。
-	* 使用HTML5的上传属性(FormData)实现了上传文档,视频等JS的封装。
-* 使用技术:ASP.NET MVC、Entity Framework、Linq To SQL、JS插件
-
-##### (7) MVC权限管理系统(KJ240) (开源)
+##### (6) MVC权限管理系统(KJ240) (开源)
 * 项目介绍:该系统是为公司开发的通用权限系统，可以在每个项目的权限中直接使用,关于这个项目在开源博客中已分享
 * 项目职责
 	* 该系统是为了在以后的过程中不需要开发重复性的工作而使用MVC和EF开发的权限系统，可以在ASP.NET MVC和WebForm中使用。
@@ -98,7 +89,7 @@
 	* 完成为用户设置角色和权限，给权限设置角色，给用户设置用户组，最后使用MVC的OnActionExting方法来判断用户必须满足上述条件才能进行权限设置并且登录系统。
 * 使用技术:ASP.NET MVC、EasyUI、Entity Framework、log4Net
 
-##### (8) 人员定位管理系统(KJ241)
+##### (7) 人员定位管理系统(KJ241)
 * 项目介绍:该系统是对煤矿人员的一个总体管理(上井，下井，部门等),根据权限将系统分为好几个版本。
 * 项目职责
 	* 项目基于ASP.NET MVC2.0+Nhibernate+Spring.NET+EasyUI架构实现，B/S端仿照windows桌面的开发，可以给桌面设置不同颜色的桌面主题
@@ -108,11 +99,11 @@
 
 ###6.自我评价
 * 本人诚实谦虚，工作勤奋，认真负责，能吃苦耐劳，尽职尽责，有较强的团队精神和学习能力
-* 对工作适应力非常强，能很快融入到到公司工作中
-* 有管理团队的经验
+* 对工作适应力非常强，能很快融入到公司工作中
+* 有管理小型团队的经验
 
 ###7.正在探究中
 * Elasticsearch持续学习中ing
 * Docker研究
 * Spring Boot微服务
-* MySql书籍阅读
+* MySql深层次学习
