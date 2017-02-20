@@ -105,5 +105,5 @@
 ###7.正在学习中
 * Elasticsearch持续学习中ing
 * Docker研究
-* Spring Boot微服务
+* Spring Boot+Spring Cloud微服务
 * MySql深层次学习
