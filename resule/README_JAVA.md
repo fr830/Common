@@ -1,7 +1,7 @@
 ﻿<h2 align = "center">韩迎龙个人简历</h2>
 
 ### 1.个人信息
-* 姓名：韩迎龙(`Kencery`)、 性别：男、 现居住地：*北京*
+* 姓名：韩迎龙(**Kencery**)、 性别：男、 现居住地：*北京*
 * 毕业院校：长春工程学院
 * 联系电话：**18658152123**、E-Mail：**hyl934532778@live.cn**
 * 工作时间：2012年2月份->至今、工作年限：5年
@@ -98,14 +98,6 @@
 	* 完成为用户设置角色和权限，给权限设置角色，给用户设置用户组，最后使用MVC的OnActionExting方法来判断用户必须满足上述条件才能进行权限设置并且登录系统。
 * 使用技术:ASP.NET MVC、EasyUI、Entity Framework、log4Net
 
-#### (8)人员定位管理系统(KJ241)
-* 项目介绍:该系统是对煤矿人员的一个总体管理(上井，下井，部门等),根据权限将系统分为好几个版本。
-* 项目职责
-	* 项目基于ASP.NET MVC2.0+Nhibernate+Spring.NET+EasyUI架构实现，B/S端仿照windows桌面的开发，可以给桌面设置不同颜色的桌面主题
-	* 实现了可以上传多张图片的功能。实现了对煤矿人员的管理。
-	* 使用NPOI实现将数据导出Excel的功能。
-* 使用技术:ASP.NET MVC、Nhibernate、Spring.Net、EasyUI、Jquery、Log4Net、NPOI、SQL Server
-
 ### 6.自我评价
 * 本人诚实谦虚，工作勤奋，认真负责，能吃苦耐劳，尽职尽责，有较强的团队精神和学习能力，对工作适应力非常强，能很快融入到公司工作中
 * 有管理小型团队的经验
@@ -113,6 +105,6 @@
 ### 7.正在阅读的书籍
 * 深入理解Java虚拟机...
 * Spring 3.x 企业应用开发实战...
-* Docker研究
-* Spring Boot+Spring Cloud微服务
-* MySql深层次学习
+* Docker研究...
+* Spring Boot+Spring Cloud微服务...
+* MySql深层次学习...

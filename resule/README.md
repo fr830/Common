@@ -1,5 +1,6 @@
 ﻿<h2 align = "center">韩迎龙个人简历</h2>
-###1.个人信息
+
+### 1.个人信息
 * 姓名：韩迎龙(`Kencery`)、 性别：男、 现居住地：*北京*
 * 毕业院校：长春工程学院
 * 联系电话：**18658152123**、E-Mail：**hyl934532778@live.cn**
@@ -7,25 +8,25 @@
 * 博客：http://www.cnblogs.com/hanyinglong 、GitHub：https://github.com/kencery
 * 求职意向：.NET/Java软件工程师
 
-###2.开源项目/博客
+### 2.开源项目/博客
 | 标题        | 超链接           | 说明           |
 | ------------- |:-------------:|:-------------:|
 | 初心源商城 |  [初心源商城](http://www.chuxinm.com "初心源商城")   | 几个朋友利用业余时间共同开发的一套源码买卖商城,使用.net core开发,部署在linux系统下 |
 | 开源权限系列博客 |  [开源权限系列博客](http://www.cnblogs.com/hanyinglong/archive/2013/03/22/2976478.html "开源权限系列博客")   | 自己编写的一个开源的权限系统(用户-组-角色-权限-按钮)，从无到有的书写博客分享 |
 | 全文检索系列博客 |  [全文检索系列博客](http://www.cnblogs.com/hanyinglong/p/5464604.html,"全文检索系列博客")   | 学习基于Lucene的Elasticsearch全文检索(安装-集群-Java,.NET客户端)并书写博客分享|
 
-###3.个人技能
-##### (1) .NET
+### 3.个人技能
+#### (1) .NET
 * 熟练掌握C#语法糖、ASP.NET MVC/WebForm/ASP.Net Core、ADO.NET、Dapper、Linq、Entity Framework、Nhibernate、Spring.NET等
 * 熟练使用各种开发工具以及辅助开发的插件
 * 可以基于.NET的任何平台/技术搭建架构,对设计模式也有一定的了解。
 
-##### (2) Java
+#### (2) Java
 * 熟练掌握Java语法糖、Spring MVC、Shiro、MyBatis、JDBC、Spring、Hibernate、Spring Boot等
 * 熟练使用Myeclipse、IDEA等开发工具并且使用Maven开发项目及发布部署到服务器
 * 可以搭建基于Spring MVC/Spring Boot、Memcached、Redis、Mysql/SqlServer等技术的网站框架
 
-##### (3) 其它
+#### (3) 其它
 * 具有面向对象思想，扎实的编程功底以及良好的编码习惯
 * 熟练使用Git、SVN、TFS等版本控制软件、熟练使用Linux系统常用操作命令
 * 熟练掌握Sql Server、Mysql、MongoDB数据库,对数据库的优化有一定的了解
@@ -34,14 +35,14 @@
 * 熟练使用nodejs开发后台接口(有开发经验)
 * 可以搭建方便开发的开源工具：Raneto Docs、Swagger等
 
-###4.工作历程
+### 4.工作历程
 | 工作时间          | 公司名称  | 在职职位      | 完成项目       |
 | ----------------- |:-------------:|:-------------:|:-------------:|
 | 2015/03-至今      | 北京易淘星空网络科技有限责任公司 | Java/.NET软件工程师 | boss收银系统、微信外卖网、日志监控系统、H5/WeChat外卖网、MongoDB打印机日志查看系统、商户后台系统 |
 | 2013/02-2015/03   | 北京奥鹏教育集团 | .NET软件工程师/项目负责人 | 时代先锋网、教材信息系统V1.0、文档库管理系统 |
 | 2012/02-2012/12   | 长春东高集团 | .NET软件工程师 | MVC权限管理信息系统(KJ240)、人员定位管理系统(KJ241) |
 
-###5.项目简述
+### 5.项目简述
 ##### (1) 初心源商城(http://www.chuxinm.com)
 * 项目介绍:该系统为个人组织团队在业余时间开发的一个商城系统(B2C)，系统基于.net core进行开发,部署在linux服务器上。
 * 项目职责
@@ -111,12 +112,12 @@
 	* 使用NPOI实现将数据导出Excel的功能。
 * 使用技术:ASP.NET MVC、Nhibernate、Spring.Net、EasyUI、Jquery、Log4Net、NPOI、SQL Server
 
-###6.自我评价
+### 6.自我评价
 * 本人诚实谦虚，工作勤奋，认真负责，能吃苦耐劳，尽职尽责，有较强的团队精神和学习能力
 * 对工作适应力非常强，能很快融入到到公司工作中
 * 有管理团队的经验
 
-###7.正在探究中
+### 7.正在探究中
 * Elasticsearch持续学习中ing
 * Docker研究
 * Spring Boot微服务
