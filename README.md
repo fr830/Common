@@ -9,9 +9,8 @@
 #文件说明
 1. common_method(公共方法)
 2. famous_bolg(知名博客整理)
-3. html(特效整理)
-4. resule(个人履历)
-5. java(对java的公共使用内容的封装)
+3. resule(个人履历)
+4. java(对java的公共使用内容的封装)
 
 #感恩(共用类提供者)
 * 刘小吉，秦效甫，哈尔滨-奶瓶

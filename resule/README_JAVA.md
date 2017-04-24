@@ -1,5 +1,5 @@
 ﻿<h2 align = "center">韩迎龙个人简历</h2>
-###1.个人信息
+### 1.个人信息
 * 姓名：韩迎龙(`Kencery`)、 性别：男、 现居住地：*北京*
 * 毕业院校：长春工程学院
 * 联系电话：**18658152123**、E-Mail：**hyl934532778@live.cn**
@@ -7,7 +7,7 @@
 * 博客：http://www.cnblogs.com/hanyinglong 、GitHub：https://github.com/kencery
 * 求职意向：Java软件工程师
 
-###2.开源项目/博客
+### 2.开源项目/博客
 | 标题        | 超链接           | 说明           |
 | ------------- |:-------------:|:-------------:|
 | 全文检索系列博客 |  [全文检索系列博客](http://www.cnblogs.com/hanyinglong/p/5464604.html,"全文检索系列博客")   | 学习基于Lucene的Elasticsearch全文检索(安装-集群-Java,.NET客户端)并书写博客分享|
