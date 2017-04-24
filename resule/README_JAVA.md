@@ -9,11 +9,11 @@
 * 求职意向：Java软件工程师
 
 ### 2.开源项目/博客
-| 标题        | 超链接           | 说明           |
+| 标题        | 地址           | 简要说明           |
 | ------------- |:-------------:|:-------------:|
-| 全文检索系列博客 |  [全文检索系列博客](http://www.cnblogs.com/hanyinglong/p/5464604.html,"全文检索系列博客")   | 学习基于Lucene的Elasticsearch全文检索(安装-集群-Java,.NET客户端)并书写博客分享|
-| 开源权限系列博客 |  [开源权限系列博客](http://www.cnblogs.com/hanyinglong/archive/2013/03/22/2976478.html "开源权限系列博客")   | 自己编写的一个开源的权限系统(用户-组-角色-权限-按钮)，从无到有的书写博客分享 |
-| 初心源商城 |  [初心源商城](http://www.chuxinm.com "初心源商城")   | 几个朋友利用业余时间共同开发的一套源码买卖商城,使用.net core开发,部署在linux系统下 |
+| 全文检索系列博客 |  [全文检索系列博客](http://www.cnblogs.com/hanyinglong/p/5464604.html,"全文检索系列博客")   | 基于Lucene的Elasticsearch全文检索(安装-集群-Java_API),并且使用在日志中|
+| 开源权限系列博客 |  [开源权限系列博客](http://www.cnblogs.com/hanyinglong/archive/2013/03/22/2976478.html "开源权限系列博客")   | 自己编写的一个开源权限系统(用户-组-角色-权限-按钮)，从无到有的的实现并且博客分享 |
+| 初心网 |  [初心网](http://www.chuxinm.com "初心网")   | 带领团队开发的一套博客－源码买卖商城，业务内容及框架编写均由我完成 |
 
 ### 3.个人技能
 * 熟练掌握Java语法糖、Spring MVC、Shiro、MyBatis、JDBC、Spring、Hibernate、Spring Boot等
@@ -25,7 +25,7 @@
 * 熟练运用Redis、Memcached、Nginx、Elasticsearch、Email、Task服务、RabbitMQ等组件的使用
 * 熟练掌握页面架构和布局,使用JavaScript和Jquery及第三方插件(EasyUI，Bootstrap...),了解DIV+CSS布局
 * 可以搭建方便开发的开源工具：Raneto Docs、Swagger等
-* 熟练使用nodejs开发后台接口(有开发经验)
+* 有开发.net、nodejs的经验
 
 ### 4.工作经历
 | 工作时间          | 公司名称  | 在职职位      | 完成项目       |
