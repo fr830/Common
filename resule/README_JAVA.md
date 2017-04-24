@@ -16,26 +16,31 @@
 | 初心网 |  [初心网](http://www.chuxinm.com "初心网")   | 带领团队开发的一套博客－源码买卖商城，业务内容及框架编写均由我完成 |
 
 ### 3.个人技能
-* 熟练掌握Java语法糖、Spring MVC、Shiro、MyBatis、JDBC、Spring、Hibernate、Spring Boot等
+* 熟练掌握Java语法糖、Spring、Spring MVC、Shiro、MyBatis、JDBC、Hibernate、Spring Boot等
 * 熟练使用Myeclipse、IDEA等开发工具并且使用Maven开发项目及发布部署到服务器
 * 可以搭建基于Spring MVC/Spring Boot、Memcached、Redis、Mysql/SqlServer等技术的网站框架
-* 具有面向对象思想，扎实的编程功底以及良好的编码习惯
 * 熟练使用Git、SVN、TFS等版本控制软件、熟练使用Linux系统常用操作命令
-* 熟练掌握Sql Server、Mysql、MongoDB数据库,对数据库的优化有一定的了解
+* 熟练掌握Sql Server、Mysql、MongoDB等数据库,对数据库的优化有一定的了解
 * 熟练运用Redis、Memcached、Nginx、Elasticsearch、Email、Task服务、RabbitMQ等组件的使用
 * 熟练掌握页面架构和布局,使用JavaScript和Jquery及第三方插件(EasyUI，Bootstrap...),了解DIV+CSS布局
-* 可以搭建方便开发的开源工具：Raneto Docs、Swagger等
+* 可以搭建方便开发的各种开源工具：Raneto Docs、Swagger Api等
+* 具有面向对象思想，扎实的编程功底以及良好的编码习惯
 * 有开发.net、nodejs的经验
 
 ### 4.工作经历
 | 工作时间          | 公司名称  | 在职职位      | 完成项目       |
 | ----------------- |:-------------:|:-------------:|:-------------:|
-| 2015/03-至今      | 北京易淘星空网络科技有限责任公司 | Java软件工程师 | boss收银系统、日志监控系统、社群系统、H5外卖网、MongoDB打印机日志查看系统、易淘餐厅运营后台|
+| 2015/03-至今      | 北京易淘星空网络科技有限责任公司 | Java软件工程师 | boss收银系统、日志监控系统、社群系统、H5外卖网、MongoDB打印机日志查看系统、易淘餐厅运营后台 |
 | 2013/02-2015/03   | 北京奥鹏教育集团 | .NET软件工程师/项目负责人 | 时代先锋网、教材信息系统V1.0、文档库管理系统 |
 | 2012/02-2012/12   | 长春东高集团 | .NET软件工程师 | MVC权限管理信息系统(KJ240)、人员定位管理系统(KJ241) |
 
 ### 5.项目简述
-##### (1) Boss收银系统(http://boss.etao.cn/)
+
+
+
+
+
+#### (1) Boss收银系统(http://boss.etao.cn/)
 * 项目介绍:该系统提供公司各个终端、销售人员、开发人员、财务等使用的基础系统，各个终端订单的管理，销售人员对各个终端的管理，开发人员对终端产品的推送以及财务的对账等功能(管理后台)
 * 项目职责
 	* 使用Spring MVC+Shiro+MyBatis+Redis开发用户权限模块，使系统能够对按钮进行权限级控制
@@ -45,7 +50,7 @@
 	* 多数据源的切换配置(使用Aop切面实现DataSource)
 * 使用技术:Spring MVC、Mysql、Shiro、Ehcache、MyBatis、Spring(redis、rest、task)开源组件、Swagger、Log4j2、Email
 
-##### (2) 易淘餐厅运营后台(https://a.etao.cn/)
+#### (2) 易淘餐厅运营后台(https://a.etao.cn/)
 * 项目介绍:该系统为公司内部和餐厅使用的一体化项目，面向于公司所有人使用，使用权限管理其数据展示等信息
 * 项目职责
 	* 使用Spring MVC+MyBatis+Druid+Redis开发系统
@@ -54,7 +59,7 @@
 	* Redis服务器的部署以及封装使用的公共类实现
 * 使用技术:Spring MVC、struts、JSP、MySql、Redis、MyBatis、Swagger、Log4j2
 
-##### (3) 日志监控系统
+#### (3) 日志监控系统
 * 项目介绍:该系统提供给公司内部使用，主要是监控公司所有网站的请求等日志信息以及订单号剩余量、订单数量、RabbitMQ、短信发送等信息。
 * 项目职责
 	* 搭建ElasticSearch集群并且将Mysql中的数据使用river同步ElasticSearch中
