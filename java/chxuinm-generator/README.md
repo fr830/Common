@@ -1,0 +1,10 @@
+### 1.Mybatis-Generator使用说明
+* 源码地址：https://github.com/mybatis/generator
+1. 添加包文件(pom.xml文件下含有说明)
+2. 打开resources下generatorConfig.xml配置文件
+    * 修改jdbcConnection数据库连接字符串
+    * 修改javaModelGenerator节点下的targetPackage包为自己项目结构的包
+    * 修改sqlMapGenerator模型下的targetPackage包为自己项目结构的包
+    * 修改javaClientGenerator模型下的targetPackage包为自己项目结构的包
+    * 修改表结构(表名称和生成的实体名称)
+3. 执行maven->package，成功，文件生成在target->generated-sources->mybatis-generator下
