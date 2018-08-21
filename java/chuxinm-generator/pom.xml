@@ -84,4 +84,55 @@
       </plugins>
     </pluginManagement>
   </build>
+  <profiles>
+    <profile>
+      <id>mysql</id>
+      <activation><activeByDefault>true</activeByDefault></activation>
+      <properties>
+        <deploy.type>mysql</deploy.type>
+      </properties>
+      <build>
+        <resources>
+          <resource>
+            <directory>src/main/resources.${deploy.type}</directory>
+          </resource>
+          <resource>
+            <directory>src/main/resources/</directory>
+          </resource>
+        </resources>
+      </build>
+    </profile>
+    <profile>
+      <id>sqlserver</id>
+      <properties>
+        <deploy.type>sqlserver</deploy.type>
+      </properties>
+      <build>
+        <resources>
+          <resource>
+            <directory>src/main/resources.${deploy.type}</directory>
+          </resource>
+          <resource>
+            <directory>src/main/resources/</directory>
+          </resource>
+        </resources>
+      </build>
+    </profile>
+    <profile>
+      <id>oracle</id>
+      <properties>
+        <deploy.type>oracle</deploy.type>
+      </properties>
+      <build>
+        <resources>
+          <resource>
+            <directory>src/main/resources.${deploy.type}</directory>
+          </resource>
+          <resource>
+            <directory>src/main/resources/</directory>
+          </resource>
+        </resources>
+      </build>
+    </profile>
+  </profiles>
 </project>

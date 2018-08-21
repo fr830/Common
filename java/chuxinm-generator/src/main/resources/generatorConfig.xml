@@ -7,9 +7,8 @@
     <context id="mysqlTables" targetRuntime="MyBatis3" defaultModelType="conditional">
         <!-- 注意以下标签的顺序:property*,plugin*,commentGenerator?,jdbcConnection,javaTypeResolver?,javaModelGenerator,
         sqlMapGenerator?,javaClientGenerator?,table+ -->
-
         <!-- 这个插件给由MBG生成的Java模型对象增加了equals和hashCode方法 -->
-        <plugin type="org.mybatis.generator.plugins.EqualsHashCodePlugin"/>
+        <!--<plugin type="org.mybatis.generator.plugins.EqualsHashCodePlugin"/>-->
 
         <commentGenerator>
             <!-- 是否去除自动生成的注释 true：是 ： false:否 -->
@@ -49,7 +48,7 @@
         </javaClientGenerator>
 
         <!--生成表结构(可多个信息)-->
-        <table tableName="t_cards" domainObjectName="cards" enableCountByExample="false" enableUpdateByExample="false"
+        <table tableName="t_users" domainObjectName="users" enableCountByExample="false" enableUpdateByExample="false"
                enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false" >
             <property name="useActualColumnNames" value="true" />
         </table>
